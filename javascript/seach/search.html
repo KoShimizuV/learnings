@@ -1,0 +1,38 @@
+<html>
+<script type="text/javascript"><!--
+function find(needle_key,id){
+	word = document.getElementById(needle_key).value;
+	table = document.getElementById(id);
+	rowN = table.rows.length;
+	for (i = 1; i < rowN ; i++) {
+//		cellN = table.cells.length;
+		cellN = table.children.length;
+		disp = "none";
+		for (j = 0; j < cellN ; j++) {
+			cel = table.rows[i].cells[j];
+			if ((cel == null) || (cel.innerHTML == "")) { continue; }
+			if (cel.innerHTML.toLowerCase().search(word.toLowerCase()) >= 0){
+				disp = "";
+				break;
+			}
+		}
+		table.rows[i].style.display = disp;
+	}
+}
+--></script>
+<body>
+
+<input type="text" id="list_key" onkeyup="find('list_key', 'list')" />
+<table id="list">
+<thead>
+<tr><th>id</th><th>name</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>abcd</td></tr>
+<tr><td>2</td><td>efgh</td></tr>
+<tr><td>3</td><td>ijkl</td></tr>
+<tr><td>4</td><td>aaaa</td></tr>
+</tbody>
+</table>
+</body>
+</html>

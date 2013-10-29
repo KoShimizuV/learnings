@@ -1,0 +1,25 @@
+<html>
+<head><script type="text/javascript"><!--
+  function doRep(){
+     var lists = document.getElementsByTagName("a");
+      for (i=0; i<lists.length; i++){
+         obj =  lists[i];
+        if(obj.className == "syncCheck") {
+            var link =obj.href;
+            obj.href="javascript:;"
+            obj.onclick = function () {
+                alert(link);
+                document.location = link; 
+            }
+        };
+      }
+
+  }
+  
+--></script></head>
+<body>
+<a href="http://yahoo.co.jp" onclick="#" id="rep">google</a>
+<a href="http://yahoo.co.jp" onclick="#" id="rep" class="syncCheck">google2</a>
+<input type="button" onclick="doRep()" value="replace" />
+</body>
+</html>

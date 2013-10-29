@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript"><!--
+	function show(){
+		for (i=1; i<=3; i++){
+                   var style = document.getElementById("key" + i).style.display
+                   if (style == "none") {
+                        document.getElementById("key" + i).style.display = "block"
+	                break;
+	           } 
+		} 
+	}
+	function hide(){
+		for (i=3; i>=2; i--){
+                   var style = document.getElementById("key" + i).style.display
+			   if (style == "block") {
+                        document.getElementById("key" + i).style.display = "none"
+	                break;
+	           } 
+		} 
+	}
+	--></script>
+</head>
+<body>
+<input type="button" value="add" onClick="show()"/>
+<input type="button" value="delete" onClick="hide()" />
+<input type="text" name="key1" id="key1" value="1" style="display:block"/> 
+<input type="text" name="key2" id="key2" value="2" style="display:none"/> 
+<input type="text" name="key3" id="key3" value="3" style="display:none"/> 
+</body>
+</html>

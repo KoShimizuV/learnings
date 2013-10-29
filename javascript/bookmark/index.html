@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<script type="text/javascript">
+<!--
+
+function bookmark(){
+    //IE Favorite
+	if(window.external && !(window.sidebar)) {
+		window.external.AddFavorite('http://www.cedynamall.com/','セディナモール');
+	} else
+	//Mozilla Firefox Bookmark
+	if(window.external && window.sidebar) {
+		window.sidebar.addPanel('セディナモール', 'http://www.cedynamall.com/', '');
+	} else
+	//Netscape
+	if(window.sidebar) { 
+		alert('ブックマークに入れる場合は 「Ctrl+D」 を押してください');
+	}}
+
+-->
+</script>
+</head>
+<body>
+
+
+<script type="text/javascript" charset="shift_jis"><!--
+	//Opera Hotlist
+	if(window.opera && window.print) {
+		document.write('<li id="bookMark"><a href="http://www.cedynamall.com/" rel="sidebar" title="セディナモール"><span>このページをお気に入りに追加</span></a></li>');
+	} else {
+	    document.write('<a href="javascript:void(0);" onclick="bookmark(); return false;">bookmark</a>');
+	}
+--></script>
+
+</body>
+</html>

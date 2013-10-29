@@ -1,0 +1,33 @@
+<html>
+<head><script type="text/javascript"><!--
+  var syncNow = false;
+
+  window.onload = function(){
+     var lists = document.getElementsByTagName("a");
+     for (i=0; i<lists.length; i++){
+        obj =  lists[i];
+        if(obj.className == "syncCheck") {
+            var link =obj.href;
+            obj.href="javascript:;"
+            obj.onclick = function () {
+                if (syncNow) {
+                    alert('now syncking');
+                } else {
+                    document.location = link;
+                }
+            }
+        }
+     }
+  }
+  
+  function sync(){
+      syncNow = true;
+  }
+  
+--></script></head>
+<body>
+<a href="http://yahoo.co.jp" onclick="#" id="rep">google</a>
+<a href="http://yahoo.co.jp" onclick="#" id="rep" class="syncCheck">google2</a>
+<input type="button" onclick="sync()" value="replace" />
+</body>
+</html>

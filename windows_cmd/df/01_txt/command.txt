@@ -1,0 +1,13 @@
+
+1.コピーとの比較
+fc D:\MyDocuments\100_PC\00_Programing\Batch\df\a.txt D:\MyDocuments\100_PC\00_Programing\Batch\df\a_cp.txt
+
+    ファイル D:\MYDOCUMENTS\100_PC\00_PROGRAMING\BATCH\DF\a.txt と D:\MYDOCUMENTS\100_PC\00_PROGRAMING\BATCH\DF\A_CP.TXT を比較しています
+    FC: 相違点は検出されませんでした
+
+
+
+2.
+fc D:\MyDocuments\100_PC\00_Programing\Batch\df\a.txt D:\MyDocuments\100_PC\00_Programing\Batch\df\b.txt
+
+

@@ -1,0 +1,29 @@
+<html>
+<head><script type="text/javascript"><!--
+  var syncNow = false;
+
+  window.onload = function(){
+     var el = document.getElementById("page_n");
+     var lists = el.getElementsByTagName("a");
+     for (i=0; i<lists.length; i++){
+        obj =  lists[i];
+        var link =obj.href;
+        obj.href="javascript:;"
+        obj.onclick = function () {
+            alert('now syncking');
+        }
+     }
+  }
+  
+  function sync(){
+      syncNow = true;
+  }
+  
+--></script></head>
+<body>
+<div id="page_n">
+<a href="#" onclick="#" id="rep" class="syncCheck">google2</a>
+</div>
+<input type="button" onclick="sync()" value="replace" />
+</body>
+</html>
