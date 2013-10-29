@@ -1,0 +1,3 @@
+file,diff,a-modified,a-size,b-modified,b-size
+\same.txt,diff,2011-12-28 01:00:56.921,4,2011-12-28 01:01:18.281,4
+\diff.txt,diff,2011-12-28 01:01:09.140,5,2011-12-28 01:01:14.296,5
