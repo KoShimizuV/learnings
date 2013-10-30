@@ -6,13 +6,13 @@ use Net::FTP;
 print "Content-type: text/html; charset=EUC-JP", "\n\n";
 
 # FTPサーバへの接続
-my $ftp = Net::FTP->new('unvent.sakura.ne.jp');
+my $ftp = Net::FTP->new('xxx.ne.jp');
 
 # ユーザ名とパスワードを指定してログイン
-$ftp->login('unvent', 'taca778');
+$ftp->login('username', 'passwd');
 
 # カレントディレクトリの変更
-$ftp->cwd("/home/unvent/csv");
+$ftp->cwd("/home/username/");
 
 $ftp->get("goodslist.csv");
 print $ftp->message();
