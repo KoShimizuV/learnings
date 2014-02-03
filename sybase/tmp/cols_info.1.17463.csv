@@ -1,0 +1,4 @@
+1,id,varchar,10
+2,type,varchar,10
+3,name,varchar,100
+4,age,int,4

@@ -1,0 +1,54 @@
+ Name                                                             Owner                Object_type                                      
+ ---------------------------------------------------------------- -------------------- ------------------------------------------------ 
+ sysquerymetrics                                                  dbo                  view                                             
+ m1                                                               dbo                  user table                                       
+ m1_w                                                             dbo                  user table                                       
+ t1                                                               dbo                  user table                                       
+ t1_w                                                             dbo                  user table                                       
+ t2                                                               dbo                  user table                                       
+ t2_w                                                             dbo                  user table                                       
+ t3                                                               dbo                  user table                                       
+ t3_w                                                             dbo                  user table                                       
+ test_table                                                       dbo                  user table                                       
+ sysalternates                                                    dbo                  system table                                     
+ sysattributes                                                    dbo                  system table                                     
+ syscolumns                                                       dbo                  system table                                     
+ syscomments                                                      dbo                  system table                                     
+ sysconstraints                                                   dbo                  system table                                     
+ sysdams                                                          dbo                  system table                                     
+ sysdepends                                                       dbo                  system table                                     
+ sysencryptkeys                                                   dbo                  system table                                     
+ sysgams                                                          dbo                  system table                                     
+ sysindexes                                                       dbo                  system table                                     
+ sysjars                                                          dbo                  system table                                     
+ syskeys                                                          dbo                  system table                                     
+ syslogs                                                          dbo                  system table                                     
+ sysobjects                                                       dbo                  system table                                     
+ syspartitionkeys                                                 dbo                  system table                                     
+ syspartitions                                                    dbo                  system table                                     
+ sysprocedures                                                    dbo                  system table                                     
+ sysprotects                                                      dbo                  system table                                     
+ sysqueryplans                                                    dbo                  system table                                     
+ sysreferences                                                    dbo                  system table                                     
+ sysroles                                                         dbo                  system table                                     
+ syssegments                                                      dbo                  system table                                     
+ sysslices                                                        dbo                  system table                                     
+ sysstatistics                                                    dbo                  system table                                     
+ systabstats                                                      dbo                  system table                                     
+ systhresholds                                                    dbo                  system table                                     
+ systypes                                                         dbo                  system table                                     
+ sysusermessages                                                  dbo                  system table                                     
+ sysusers                                                         dbo                  system table                                     
+ sysxtypes                                                        dbo                  system table                                     
+
+(1 row affected)
+ User_type                            Storage_type                                     Length                   Nulls                Default_name                                     Rule_name                            Access_Rule_name                                                 
+ ------------------------------------ ------------------------------------------------ ------------------------ -------------------- ------------------------------------------------ ------------------------------------ ---------------------------------------------------------------- 
+ 
+ Class_name                               Jar_name                         
+ ---------------------------------------- -------------------------------- 
+ 
+ Jar_name                                 
+ ---------------------------------------- 
+ 
+(return status = 0)

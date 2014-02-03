@@ -1,0 +1,4962 @@
+[2014/01/26 00:41:37][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+
+go
+[2014/01/26 00:41:37][stdin]sp_help
+go
+[2014/01/26 00:41:37][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+ 
+go
+[2014/01/26 00:41:37][stdin]select * from t1
+go
+[2014/01/26 00:41:37][stdin]select * from t1
+go
+[2014/01/26 00:42:06][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 00:42:07][stdin]sp_help
+go
+[2014/01/26 00:42:07][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 00:42:07][stdin]select * from t1
+go
+[2014/01/26 00:42:07][stdin]select * from t1
+go
+[2014/01/26 00:42:50][arg1]sp_help go
+go
+[2014/01/26 00:44:29][arg1]sp_help go
+go
+[2014/01/26 00:46:07][arg1]sp_help go
+go
+[2014/01/26 00:52:13][arg1]sp_help go
+go
+[2014/01/26 00:52:26][arg1]sp_help go
+go
+[2014/01/26 00:52:43][arg1]sp_help go
+[2014/01/26 00:53:22][arg1]sp_help
+go
+[2014/01/26 00:53:42][arg1]sp_help
+go
+[2014/01/26 00:55:49][stdin]delete t1 
+go
+[2014/01/26 00:55:49][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 00:55:49][stdin]select * from t1
+go
+[2014/01/26 00:55:49][arg1]sp_help
+go
+[2014/01/26 00:56:03][stdin]delete t1 
+go
+[2014/01/26 00:56:03][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 00:56:03][stdin]select * from t1
+go
+[2014/01/26 00:56:03][stdin]drop table t1 ; create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 00:56:03][stdin]sp_help
+go
+[2014/01/26 00:56:04][stdin]use master; sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 00:56:04][stdin]select * from t1
+go
+[2014/01/26 00:56:04][stdin]select * from t1
+go
+[2014/01/26 00:56:04][arg1]sp_help
+go
+[2014/01/26 01:10:50][stdin]delete t1 
+go
+[2014/01/26 01:10:50][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 01:10:50][stdin]select * from t1
+go
+[2014/01/26 01:10:50][stdin]drop table t1 ; create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 01:10:50][stdin]sp_help
+go
+[2014/01/26 01:10:50][stdin]use master; sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 01:10:50][stdin]select * from t1
+go
+[2014/01/26 01:10:51][stdin]select * from t1
+go
+[2014/01/26 01:10:51][arg1]sp_help
+go
+[2014/01/26 01:14:13][arg1]--help
+go
+[2014/01/26 01:14:16][arg1]-h
+go
+[2014/01/26 01:14:21][arg1]--help
+go
+[2014/01/26 01:14:26][arg1]help
+go
+[2014/01/26 01:14:28][arg1]--h
+go
+[2014/01/26 01:14:29][arg1]-h
+go
+[2014/01/26 01:38:43][stdin]select * from sysobject o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:39:01][stdin]sp_help
+go
+[2014/01/26 01:39:11][stdin]select * from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:39:32][stdin]select c.col_id, co.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:39:35][stdin]select c.col_id, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:39:45][stdin]select * from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:40:11][stdin]select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:40:26][stdin]select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:41:18][stdin]select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:41:27][stdin]set nocount on ; select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:41:52][stdin]set nocount on ; select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:42:26][stdin]set nocount on 
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+[2014/01/26 01:43:28][stdin]set nocount on 
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+\n
+[2014/01/26 01:43:34][stdin]set nocount on 
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+\n
+[2014/01/26 01:43:55][stdin]set nocount on 
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:44:29][stdin]set nocount on 
+go
+ set header no
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:44:39][stdin]set nocount on 
+go
+ set noheader no
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:44:44][stdin]set nocount on 
+go
+ set header no
+go
+ select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:46:31][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:46:43][argN]set nocount on ;  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1' -td @
+[2014/01/26 01:47:12][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:14][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:23][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:26][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:34][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:36][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:47:55][stdin]set nocount on 
+go
+  select o.name, c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:48:05][stdin]set nocount on 
+go
+  select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:48:23][stdin]set nocount on 
+go
+  select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:48:43][stdin]set nocount on 
+go
+  select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:50:22][stdin]select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:50:46][stdin]set nocount on 
+go
+ select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:51:07][stdin]set nocount on 
+go
+ select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:51:31][stdin]set nocount on 
+go
+ select c.colid, c.name from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:53:01][stdin]sp_help syscolumns
+go
+[2014/01/26 01:53:07][stdin]sp_help syscolumns
+go
+[2014/01/26 01:53:44][stdin]set nocount on 
+go
+ select c.colid, c.name, c.type, c.length from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:53:50][stdin]sp_help syscolumns
+go
+[2014/01/26 01:54:18][stdin]set nocount on 
+go
+ select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:54:57][stdin]sp_help syscolumns
+go
+[2014/01/26 01:55:30][stdin]sp_help
+go
+[2014/01/26 01:55:50][stdin]sp_help sysattributes
+go
+[2014/01/26 01:56:20][stdin]select * from sysattributes
+go
+[2014/01/26 01:56:29][stdin]set nocount on 
+go
+ select * from sysattributes
+go
+[2014/01/26 01:56:44][stdin]sp_help
+go
+[2014/01/26 01:57:34][stdin]set nocount on 
+go
+ select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:57:42][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 01:58:34][stdin]sp_help
+go
+[2014/01/26 01:58:48][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 01:59:05][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 02:00:03][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:00:12][stdin]select * from systypes
+go
+[2014/01/26 02:00:39][stdin]select c.col_id, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and o.name = 't1'
+go
+[2014/01/26 02:00:42][stdin]select c.colid, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and o.name = 't1'
+go
+[2014/01/26 02:01:22][stdin]select c.colid, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and c.colid = t.colid and o.name = 't1'
+go
+[2014/01/26 02:01:59][stdin]sp_help systypes
+go
+[2014/01/26 02:02:44][stdin]sp_help syscolumns
+go
+[2014/01/26 02:03:03][stdin]select c.colid, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and c.type = t.type and o.name = 't1'
+go
+[2014/01/26 02:04:34][stdin]select c.colid, c.name, t.name from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.id = t.id 
+           and c.type = t.type 
+           and o.name = 't1'
+go
+[2014/01/26 02:04:47][stdin]sp_help systypes
+go
+[2014/01/26 02:06:28][stdin]sp_help systypes
+go
+[2014/01/26 02:06:41][stdin]select c.col_id, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and o.name = 't1'
+go
+[2014/01/26 02:06:51][stdin]select c.colid, c.name, t.name from sysobjects o, syscolumns c, systypes t where o.id = c.id and c.id = o.id and o.name = 't1'
+go
+[2014/01/26 02:07:13][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 02:07:37][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 02:09:20][stdin]sp_help systypes
+go
+[2014/01/26 02:09:39][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 02:10:01][stdin]sp_help systypes
+go
+[2014/01/26 02:10:12][stdin]sp_help systypes
+go
+[2014/01/26 02:10:28][stdin]sp_help systypes
+go
+[2014/01/26 02:10:39][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 02:12:04][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:12:06][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:12:40][stdin]select * from systypes
+go
+[2014/01/26 02:12:45][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:13:02][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:13:09][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:13:15][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:13:19][stdin]select * from systypes
+go
+[2014/01/26 02:13:45][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:14:16][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:14:21][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:14:25][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:14:36][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:14:42][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:03][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:24][stdin]select * from systypes
+go
+[2014/01/26 02:15:26][stdin]select * from systypes
+go
+[2014/01/26 02:15:43][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:46][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:49][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:53][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:15:58][stdin]set nocount on 
+go
+ select * from systypes
+go
+[2014/01/26 02:16:17][stdin]select * from systypes
+go
+[2014/01/26 02:18:19][stdin]select c.colid, c.name, t.name, t.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.id = t.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:19:04][stdin]select c.colid, c.name, t.name, t.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.id = t.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:19:40][stdin]select c.colid, c.name, t.name, t.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:20:10][stdin]select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:20:35][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:28:32][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:29:20][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:29:35][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:30:01][stdin]sleect * from sysobjects where name = 't1'
+go
+[2014/01/26 02:30:06][stdin]select * from sysobjects where name = 't1'
+go
+[2014/01/26 02:30:26][stdin]select * from sysobjects where name = 't1'
+go
+[2014/01/26 02:30:33][stdin]select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:30:40][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:30:49][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:32:11][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:32:52][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:33:17][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:33:33][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1'
+go
+[2014/01/26 02:34:18][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:34:18][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:34:40][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:34:40][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:44:31][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:44:31][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:44:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:44:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:45:13][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:45:13][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:45:33][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:45:33][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 02:46:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 02:46:02][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:08:01][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:08:01][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:08:21][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:08:21][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:08:42][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:08:42][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:08:54][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:08:54][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:09:20][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:09:20][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:10:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:10:02][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:12:58][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:12:58][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:12:58][argN]-i tmp/create_w.ddl
+[2014/01/26 03:12:58][stdin]sp_help t1
+go
+[2014/01/26 03:13:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:13:02][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:13:02][argN]-i tmp/create_w.ddl
+[2014/01/26 03:13:02][stdin]sp_help t1_w
+go
+[2014/01/26 03:27:48][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 03:27:48][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 03:34:10][argFile]
+[2014/01/26 03:34:39][argFile]
+[2014/01/26 03:35:14][argFile]
+[2014/01/26 03:35:30][argFile]
+[2014/01/26 03:36:02][argFile]
+[2014/01/26 03:36:42][argFile]
+[2014/01/26 03:59:14][argFile]-i .mp/33s3.sqlllll
+[2014/01/26 04:00:16][argFile]-i .mp/33s3.sqlllll
+[2014/01/26 04:00:45][argFile]-i .mp/33s4.sqlllll
+[2014/01/26 04:01:21][argFile]-i .mp/34s0.sqlllll
+[2014/01/26 04:02:50][argFile]-i .mp/34s7.sqlllll
+[2014/01/26 04:19:53][argFile]-i tmp/create_w.ddl
+[2014/01/26 04:20:07][argFile]-i tmp/create_w.ddl
+[2014/01/26 04:20:54][argFile]-i 
+[2014/01/26 04:21:04][argFile]-i tmp/4094.sql
+[2014/01/26 04:21:42][stdin]select * from t1_w
+go
+[2014/01/26 04:24:17][argFile]-i tmp/4131.sql
+[2014/01/26 04:24:36][stdin]sp_help t1_w
+go
+[2014/01/26 04:24:43][stdin]sp_help
+go
+[2014/01/26 04:26:59][argFile]-i tmp/4185.sql
+[2014/01/26 04:28:30][argFile]-i tmp/4205.sql
+[2014/01/26 04:29:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:29:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:29:14][argFile]-i tmp/4272.sql
+[2014/01/26 04:29:14][stdin]sp_help t1_w
+go
+[2014/01/26 04:30:54][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:30:54][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:31:31][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:31:31][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:31:31][stdin]sp_help t1_w
+go
+[2014/01/26 04:34:26][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:34:26][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:34:26][stdin]sp_help t1_w
+go
+[2014/01/26 04:34:53][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t
+       where
+               o.id = c.id
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:35:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:35:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:35:45][argFile]-i tmp/4589.sql
+[2014/01/26 04:35:45][stdin]sp_help
+go
+[2014/01/26 04:37:15][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:37:16][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:37:16][argFile]-i tmp/4693.sql
+[2014/01/26 04:37:16][stdin]sp_help
+go
+[2014/01/26 04:40:50][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:40:51][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:40:51][argFile]-i /home/app/sybase/tmp/4776.sql
+[2014/01/26 04:40:51][stdin]sp_help
+go
+[2014/01/26 04:42:29][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:42:29][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:42:29][argFile]-i /home/app/sybase/tmp/4860.sql
+[2014/01/26 04:42:29][stdin]sp_help
+go
+[2014/01/26 04:43:27][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:43:27][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:43:27][argFile]-i /home/app/sybase/tmp/4944.sql
+[2014/01/26 04:43:27][stdin]sp_help
+go
+[2014/01/26 04:44:21][stdin]sp_help
+go
+[2014/01/26 04:44:57][stdin]create table t1_w (id varchar(10),name varchar(10))
+go
+[2014/01/26 04:45:04][stdin]sp_help
+go
+[2014/01/26 04:52:15][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:52:15][stdin]sp_help
+go
+[2014/01/26 04:55:56][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:55:56][stdin]sp_help
+go
+[2014/01/26 04:56:19][stdin]drop table t1_w
+go
+[2014/01/26 04:56:19][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:56:19][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:56:19][argFile]-i /home/app/sybase/tmp/5205.sql
+[2014/01/26 04:56:19][stdin]sp_help
+go
+[2014/01/26 04:56:53][stdin]drop table t1_w
+go
+[2014/01/26 04:56:53][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 04:56:53][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 04:56:53][argFile]-i /home/app/sybase/tmp/5306.sql
+[2014/01/26 04:56:53][stdin]sp_help
+go
+[2014/01/26 04:57:17][argFile]-i /home/app/sybase/tmp/5344.sql
+[2014/01/26 04:58:35][stdin]sp_help
+go
+[2014/01/26 05:02:17][stdin]drop table t1_w
+go
+[2014/01/26 05:02:17][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 05:02:17][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 05:02:17][argFile]-i /home/app/sybase/tmp/5467.sql
+[2014/01/26 05:02:17][stdin]sp_help
+go
+[2014/01/26 05:10:25][stdin]delete t1 
+go
+[2014/01/26 05:10:25][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 05:10:25][stdin]select * from t1
+go
+
+go
+[2014/01/26 05:10:25][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 05:10:25][stdin]sp_help
+go
+[2014/01/26 05:10:25][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 05:10:26][stdin]select * from t1
+go
+[2014/01/26 05:10:26][stdin]select * from t1
+go
+[2014/01/26 05:10:26][stdin]drop table t1_w
+go
+[2014/01/26 05:10:26][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 05:10:26][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 05:10:26][argFile]-i /home/app/sybase/tmp/6362.sql
+[2014/01/26 05:10:26][stdin]sp_help
+go
+[2014/01/26 05:10:26][arg1]sp_help
+go
+[2014/01/26 05:10:54][stdin]drop table t1_w
+go
+[2014/01/26 05:10:54][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 05:10:54][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 05:10:54][argFile]-i /home/app/sybase/tmp/6494.sql
+[2014/01/26 05:10:54][stdin]sp_help
+go
+[2014/01/26 05:42:13][stdin]sp_help systypes
+go
+[2014/01/26 05:42:57][stdin]sp_help syscolumns
+go
+[2014/01/26 05:43:33][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 05:47:41][stdin]alter table t1 add id constraint t1_pk primary key 
+go
+[2014/01/26 05:50:28][stdin]alter table t1 add primary key (id)
+go
+[2014/01/26 05:50:37][stdin]sp_help t1
+go
+[2014/01/26 05:51:43][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 05:55:31][stdin]select o.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 05:56:31][stdin]select o.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 05:56:34][stdin]select c.* from sysobjects o, syscolumns c where o.id = c.id and o.name = 't1'
+go
+[2014/01/26 05:59:33][stdin]sp_helpindex t1
+go
+[2014/01/26 06:01:05][stdin]sp_helpkey t1
+go
+[2014/01/26 06:01:22][stdin]alter table t1 add primary key (id)
+go
+[2014/01/26 06:01:30][stdin]sp_helpkey
+go
+[2014/01/26 06:02:51][stdin]use ase1
+go
+ sp_helpkey
+go
+[2014/01/26 06:04:22][stdin]sp_helpkey t1
+go
+[2014/01/26 06:12:21][stdin]sp_helpconstraint  t1
+go
+[2014/01/26 06:14:35][stdin]set nocount 
+go
+ sp_helpconstraint  t1
+go
+[2014/01/26 06:14:38][stdin]set nocount on 
+go
+ sp_helpconstraint  t1
+go
+[2014/01/26 06:14:49][stdin]sp_helpconstraint  t1
+go
+[2014/01/26 06:15:02][stdin]set nocount sp_helpconstraint  t1
+go
+[2014/01/26 06:15:15][stdin]set nocount
+sp_helpconstraint t1
+go
+[2014/01/26 06:15:24][stdin]set nocount on
+sp_helpconstraint t1
+go
+[2014/01/26 06:15:51][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:16:03][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:16:17][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:17:19][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:17:29][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:17:55][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:18:13][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:06][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:36][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:41][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:44][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:45][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:48][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:19:51][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:21:21][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:21:31][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:21:34][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:21:38][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:21:41][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:28:37][stdin]create table t2 (id varchar(10), type varchar(10), name varchar(10))
+go
+[2014/01/26 06:28:59][stdin]alter table t2 add primary key (id, type)
+go
+[2014/01/26 06:29:41][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:29:47][stdin]sp_helpconstraint t1
+go
+[2014/01/26 06:29:54][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:14][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:18][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:20][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:26][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:29][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:30:45][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:01][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:06][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:10][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:16][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:21][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:43][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:47][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:31:56][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:32:02][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:32:11][stdin]sp_helpconstraint t2
+go
+[2014/01/26 06:32:14][stdin]sp_helpconstraint t1
+go
+[2014/01/26 16:46:05][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:46:28][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:47:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:47:45][stdin]sp_helpconstraint t1
+go
+[2014/01/26 16:48:00][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:48:00][stdin]sp_helpconstraint t1
+go
+[2014/01/26 16:48:22][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:48:22][stdin]sp_helpconstraint t1
+go
+[2014/01/26 16:48:31][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 16:48:31][stdin]sp_helpconstraint t1
+go
+[2014/01/26 16:48:43][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:48:43][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't2'
+go
+[2014/01/26 16:48:43][argFile]-i /home/app/sybase/tmp/13065.sql
+[2014/01/26 16:48:44][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:49:24][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:49:24][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:50:18][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:50:18][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:50:53][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:50:53][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:51:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:51:02][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:51:11][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:51:11][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:51:25][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:51:25][stdin]sp_helpconstraint t2
+go
+[2014/01/26 16:51:34][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 16:51:34][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:06:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:06:47][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:07:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:07:03][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:20:42][stdin]sp_help t2
+go
+[2014/01/26 17:32:27][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:32:27][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:32:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:32:45][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:33:04][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:33:04][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:33:32][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:33:32][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:34:00][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:34:00][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:34:22][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:34:22][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:34:40][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:34:40][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:35:19][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:35:19][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:35:50][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:35:50][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:37:38][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:37:38][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:38:06][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:38:06][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:39:07][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:39:07][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:39:16][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:39:16][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:39:21][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't2_w'
+go
+[2014/01/26 17:39:21][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:53:29][stdin]sp_helpconstraint t2
+go
+[2014/01/26 17:53:49][stdin]sp_helpconstraint t2
+go
+[2014/01/26 18:13:28][stdin]sp_helpconstraint t2
+go
+[2014/01/26 18:13:28][stdin]delete t1 
+go
+[2014/01/26 18:13:28][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 18:13:28][stdin]select * from t1
+go
+
+go
+[2014/01/26 18:13:28][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:13:28][stdin]sp_help
+go
+[2014/01/26 18:13:28][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:13:28][stdin]select * from t1
+go
+[2014/01/26 18:13:29][stdin]select * from t1
+go
+[2014/01/26 18:13:29][stdin]drop table t1_w
+go
+[2014/01/26 18:13:29][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:13:29][argFile]-i /home/app/sybase/tmp/15537.sql
+[2014/01/26 18:13:29][stdin]sp_help
+go
+[2014/01/26 18:13:29][arg1]sp_help
+go
+[2014/01/26 18:16:19][stdin]drop table t1_w
+go
+[2014/01/26 18:16:19][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:16:19][argFile]-i /home/app/sybase/tmp/15653.sql
+[2014/01/26 18:16:19][stdin]sp_help
+go
+[2014/01/26 18:18:12][stdin]drop table t1_w
+go
+[2014/01/26 18:18:12][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:18:12][argFile]-i /home/app/sybase/tmp/15743.sql
+[2014/01/26 18:18:12][stdin]sp_help
+go
+[2014/01/26 18:18:46][stdin]drop table t1_w
+go
+[2014/01/26 18:18:46][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:18:46][argFile]-i /home/app/sybase/tmp/15833.sql
+[2014/01/26 18:18:46][stdin]sp_help
+go
+[2014/01/26 18:19:06][stdin]drop table t1_w
+go
+[2014/01/26 18:19:06][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:19:06][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 18:19:06][argFile]-i /home/app/sybase/tmp/15944.sql
+[2014/01/26 18:19:06][stdin]sp_help
+go
+[2014/01/26 18:19:15][stdin]drop table t1_w
+go
+[2014/01/26 18:19:15][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:19:15][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 18:19:15][argFile]-i /home/app/sybase/tmp/16052.sql
+[2014/01/26 18:19:15][stdin]sp_help
+go
+[2014/01/26 18:21:37][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int(3))
+go
+[2014/01/26 18:21:37][stdin]drop table t3_w
+go
+[2014/01/26 18:21:37][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:21:37][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:21:37][argFile]-i /home/app/sybase/tmp/16186.sql
+[2014/01/26 18:21:37][stdin]sp_help
+go
+[2014/01/26 18:21:45][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age integer(3))
+go
+[2014/01/26 18:21:45][stdin]drop table t3_w
+go
+[2014/01/26 18:21:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:21:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:21:45][argFile]-i /home/app/sybase/tmp/16318.sql
+[2014/01/26 18:21:45][stdin]sp_help
+go
+[2014/01/26 18:22:06][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age integer(3))
+go
+[2014/01/26 18:22:06][stdin]drop table t3_w
+go
+[2014/01/26 18:22:06][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:22:06][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:22:06][argFile]-i /home/app/sybase/tmp/16450.sql
+[2014/01/26 18:22:06][stdin]sp_help
+go
+[2014/01/26 18:22:16][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:22:16][stdin]drop table t3_w
+go
+[2014/01/26 18:22:16][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:22:16][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:22:16][argFile]-i /home/app/sybase/tmp/16583.sql
+[2014/01/26 18:22:16][stdin]sp_help
+go
+[2014/01/26 18:24:03][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:24:03][stdin]drop table t3_w
+go
+[2014/01/26 18:24:03][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:24:03][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:24:03][argFile]-i /home/app/sybase/tmp/16723.sql
+[2014/01/26 18:24:03][stdin]sp_help
+go
+[2014/01/26 18:25:04][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:25:04][stdin]drop table t3_w
+go
+[2014/01/26 18:25:04][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:25:04][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:25:04][argFile]-i /home/app/sybase/tmp/16862.sql
+[2014/01/26 18:25:05][stdin]sp_help
+go
+[2014/01/26 18:25:45][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:25:45][stdin]drop table t3_w
+go
+[2014/01/26 18:25:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:25:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:25:45][argFile]-i /home/app/sybase/tmp/16996.sql
+[2014/01/26 18:25:45][stdin]sp_help
+go
+[2014/01/26 18:28:04][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:28:04][stdin]drop table t3_w
+go
+[2014/01/26 18:28:04][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:28:04][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:28:04][argFile]-i /home/app/sybase/tmp/17131.sql
+[2014/01/26 18:28:04][stdin]sp_help
+go
+[2014/01/26 18:31:37][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:31:37][stdin]drop table t3_w
+go
+[2014/01/26 18:31:37][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:31:37][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:31:37][argFile]-i /home/app/sybase/tmp/17268.sql
+[2014/01/26 18:31:37][stdin]sp_help
+go
+[2014/01/26 18:32:08][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:32:08][stdin]drop table t3_w
+go
+[2014/01/26 18:32:08][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:32:08][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:32:08][argFile]-i /home/app/sybase/tmp/17403.sql
+[2014/01/26 18:32:08][stdin]sp_help
+go
+[2014/01/26 18:35:47][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:35:47][stdin]drop table t3_w
+go
+[2014/01/26 18:35:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:35:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:35:48][argFile]-i /home/app/sybase/tmp/17557.sql
+[2014/01/26 18:35:48][stdin]sp_help
+go
+[2014/01/26 18:36:24][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:36:24][stdin]drop table t3_w
+go
+[2014/01/26 18:36:24][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:36:24][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:36:24][argFile]-i /home/app/sybase/tmp/17694.sql
+[2014/01/26 18:36:24][stdin]sp_help
+go
+[2014/01/26 18:37:33][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:37:33][stdin]drop table t3_w
+go
+[2014/01/26 18:37:33][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:37:33][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:37:33][argFile]-i /home/app/sybase/tmp/17831.sql
+[2014/01/26 18:37:33][stdin]sp_help
+go
+[2014/01/26 18:42:13][stdin]sp_helpconstraint t2
+go
+[2014/01/26 18:42:13][stdin]delete t1 
+go
+[2014/01/26 18:42:13][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 18:42:13][stdin]select * from t1
+go
+
+go
+[2014/01/26 18:42:13][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:42:13][stdin]sp_help
+go
+[2014/01/26 18:42:13][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:42:13][stdin]select * from t1
+go
+[2014/01/26 18:42:13][stdin]select * from t1
+go
+[2014/01/26 18:42:14][stdin]drop table t3
+go
+[2014/01/26 18:42:14][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:42:14][stdin]drop table t3_w
+go
+[2014/01/26 18:42:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:42:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:42:14][argFile]-i /home/app/sybase/tmp/18172.sql
+[2014/01/26 18:42:14][stdin]sp_help
+go
+[2014/01/26 18:42:14][stdin]drop table t1_w
+go
+[2014/01/26 18:42:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:42:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 18:42:14][argFile]-i /home/app/sybase/tmp/18283.sql
+[2014/01/26 18:42:14][stdin]sp_help
+go
+[2014/01/26 18:42:15][arg1]sp_help
+go
+[2014/01/26 18:44:05][stdin]sp_help t3_w
+go
+[2014/01/26 18:44:21][stdin]sp_help t3_w
+go
+[2014/01/26 18:48:14][stdin]drop table t3
+go
+[2014/01/26 18:48:14][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:48:14][stdin]drop table t3_w
+go
+[2014/01/26 18:48:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:48:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:48:14][argFile]-i /home/app/sybase/tmp/18508.sql
+[2014/01/26 18:48:14][stdin]sp_help
+go
+[2014/01/26 18:48:14][stdin]sp_help t3_w
+go
+[2014/01/26 18:49:00][stdin]drop table t3
+go
+[2014/01/26 18:49:00][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:49:00][stdin]drop table t3_w
+go
+[2014/01/26 18:49:00][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:49:01][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:49:01][argFile]-i /home/app/sybase/tmp/18686.sql
+[2014/01/26 18:49:01][stdin]sp_help
+go
+[2014/01/26 18:49:01][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 18:49:21][stdin]sp_helpconstraint t2
+go
+[2014/01/26 18:49:21][stdin]delete t1 
+go
+[2014/01/26 18:49:21][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 18:49:21][stdin]select * from t1
+go
+
+go
+[2014/01/26 18:49:21][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:49:21][stdin]sp_help
+go
+[2014/01/26 18:49:22][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:49:22][stdin]select * from t1
+go
+[2014/01/26 18:49:22][stdin]select * from t1
+go
+[2014/01/26 18:49:22][stdin]drop table t3
+go
+[2014/01/26 18:49:22][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 18:49:22][stdin]drop table t3_w
+go
+[2014/01/26 18:49:22][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 18:49:22][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 18:49:22][argFile]-i /home/app/sybase/tmp/19062.sql
+[2014/01/26 18:49:22][stdin]sp_help
+go
+[2014/01/26 18:49:23][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 18:49:23][stdin]drop table t1_w
+go
+[2014/01/26 18:49:23][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 18:49:23][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 18:49:23][argFile]-i /home/app/sybase/tmp/19212.sql
+[2014/01/26 18:49:23][stdin]sp_help
+go
+[2014/01/26 18:49:23][arg1]sp_help
+go
+[2014/01/26 18:53:33][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:53:33][stdin]sp_help
+go
+[2014/01/26 18:53:33][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:53:33][stdin]select * from t1
+go
+[2014/01/26 18:53:33][stdin]select * from t1
+go
+[2014/01/26 18:55:25][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:55:25][stdin]sp_help
+go
+[2014/01/26 18:55:25][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:55:25][stdin]select * from t1
+go
+[2014/01/26 18:55:25][stdin]select * from t1
+go
+[2014/01/26 18:56:47][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:56:47][stdin]sp_help
+go
+[2014/01/26 18:56:47][stdin]use master
+go
+ sp_dboption "master", "select into/bulkcopy", true 
+go
+[2014/01/26 18:56:47][stdin]select * from t1
+go
+[2014/01/26 18:56:47][stdin]select * from t1
+go
+[2014/01/26 18:57:06][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:57:06][stdin]sp_help
+go
+[2014/01/26 18:57:06][stdin]use master
+go
+ sp_dboption "master", "select into/bulkcopy", true 
+go
+[2014/01/26 18:57:06][stdin]select * from t1
+go
+[2014/01/26 18:57:06][stdin]select * from t1
+go
+[2014/01/26 18:57:38][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:57:38][stdin]sp_help
+go
+[2014/01/26 18:57:38][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:57:38][stdin]select * from t1
+go
+[2014/01/26 18:57:38][stdin]select * from t1
+go
+[2014/01/26 18:58:04][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:58:04][stdin]sp_help
+go
+[2014/01/26 18:58:04][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:58:04][stdin]select * from ase1..t1
+go
+[2014/01/26 18:58:04][stdin]select * from t1
+go
+[2014/01/26 18:58:39][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 18:58:39][stdin]sp_help
+go
+[2014/01/26 18:58:39][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 18:58:39][stdin]select * from t1
+go
+[2014/01/26 18:58:39][stdin]select * from t1
+go
+[2014/01/26 19:03:46][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:03:46][stdin]select * from t1
+go
+[2014/01/26 19:03:46][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:03:46][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 19:24:55][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:24:55][stdin]alter table m1 add primary key (id)
+go
+[2014/01/26 19:24:55][stdin]create table m1_w (id varchar(10), name varchar(20), age int))
+go
+[2014/01/26 19:24:55][stdin]alter table m1_w add primary key (id)
+go
+[2014/01/26 19:24:55][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:24:55][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:24:55][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:24:55][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:24:55][stdin]merge
+	into m1 t
+	using m1 w
+	on t.INDEX = w.INDEX 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:24:55][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:25:11][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:25:11][stdin]alter table m1 add primary key (id)
+go
+[2014/01/26 19:25:11][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:25:11][stdin]alter table m1_w add primary key (id)
+go
+[2014/01/26 19:25:11][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:25:11][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:25:11][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:25:11][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:25:11][stdin]merge
+	into m1 t
+	using m1 w
+	on t.INDEX = w.INDEX 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:25:11][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:25:59][stdin]drop table m1
+go
+[2014/01/26 19:25:59][stdin]drop table m1_w
+go
+[2014/01/26 19:25:59][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:25:59][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:25:59][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:25:59][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:25:59][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:25:59][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:25:59][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:26:00][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:26:00][stdin]merge
+	into m1 t
+	using m1 w
+	on t.( = w.( 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:26:00][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:27:05][stdin]drop table m1
+go
+[2014/01/26 19:27:05][stdin]drop table m1_w
+go
+[2014/01/26 19:27:05][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:27:05][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:27:05][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:27:05][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:27:05][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:27:06][stdin]merge
+	into m1 t
+	using m1 w
+	on t.( = w.( 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:27:06][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:27:36][stdin]drop table m1
+go
+[2014/01/26 19:27:36][stdin]drop table m1_w
+go
+[2014/01/26 19:27:36][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:27:36][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:27:36][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:27:36][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:27:36][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:27:36][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:27:36][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:27:36][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:27:36][stdin]merge
+	into m1 t
+	using m1 w
+	on t.( = w.( 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:27:36][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:28:44][stdin]drop table m1
+go
+[2014/01/26 19:28:44][stdin]drop table m1_w
+go
+[2014/01/26 19:28:44][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:28:44][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:28:44][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:28:44][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:28:44][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:28:44][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:28:44][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:28:44][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:28:44][stdin]merge
+	into m1 t
+	using m1 w
+	on t.( = w.( 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:28:44][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:29:12][stdin]merge
+        into m1 t
+        using m1 w
+        on t.( = w.(
+          when matched
+                then update set t.id = w.id, t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:30:16][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:30:53][stdin]sp_helpconstraint m1_w
+go
+[2014/01/26 19:30:55][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:31:08][stdin]sp_constraint m1
+go
+[2014/01/26 19:31:14][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:31:27][stdin]sp_helpconstraint m1 definition
+go
+[2014/01/26 19:31:30][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:32:00][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:32:01][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:32:06][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:32:22][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:33:19][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:33:34][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:33:43][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:33:56][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:34:13][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:34:24][stdin]sp_helpconstraint t3
+go
+[2014/01/26 19:34:27][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:34:38][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:35:14][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:35:26][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:35:39][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:35:42][stdin]sp_helpconstraint m1_w
+go
+[2014/01/26 19:36:03][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:36:12][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:36:12][stdin]select * from t1
+go
+[2014/01/26 19:36:12][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:36:12][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 19:36:12][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:36:12][stdin]delete t1 
+go
+[2014/01/26 19:36:12][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 19:36:12][stdin]select * from t1
+go
+
+go
+[2014/01/26 19:36:12][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:36:12][stdin]sp_help
+go
+[2014/01/26 19:36:13][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:36:13][stdin]select * from t1
+go
+[2014/01/26 19:36:13][stdin]select * from t1
+go
+[2014/01/26 19:36:13][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:36:13][stdin]sp_help
+go
+[2014/01/26 19:36:13][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:36:13][stdin]select * from t1
+go
+[2014/01/26 19:36:13][stdin]select * from t1
+go
+[2014/01/26 19:36:13][stdin]drop table t3
+go
+[2014/01/26 19:36:13][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 19:36:13][stdin]drop table t3_w
+go
+[2014/01/26 19:36:13][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 19:36:13][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 19:36:13][argFile]-i /home/app/sybase/tmp/23145.sql
+[2014/01/26 19:36:13][stdin]sp_help
+go
+[2014/01/26 19:36:13][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 19:36:14][stdin]drop table m1
+go
+[2014/01/26 19:36:14][stdin]drop table m1_w
+go
+[2014/01/26 19:36:14][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:36:14][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:36:14][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:36:14][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:36:14][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:36:14][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:36:14][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:36:14][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:36:14][stdin]merge
+	into m1 t
+	using m1 w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:36:14][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:36:14][stdin]drop table t1_w
+go
+[2014/01/26 19:36:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 19:36:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 19:36:14][argFile]-i /home/app/sybase/tmp/23552.sql
+[2014/01/26 19:36:14][stdin]sp_help
+go
+[2014/01/26 19:36:14][arg1]sp_help
+go
+[2014/01/26 19:36:53][stdin]drop table m1
+go
+[2014/01/26 19:36:53][stdin]drop table m1_w
+go
+[2014/01/26 19:36:54][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:36:54][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:36:54][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:36:54][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:36:54][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:36:54][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:36:54][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:36:54][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:36:54][stdin]merge
+	into m1 t
+	using m1 w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:36:54][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:37:07][stdin]merge
+        into m1 t
+        using m1 w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:39:20][stdin]merge
+        into m1 t
+        using m1 w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:41:18][stdin]merge
+        into m1 t
+        using m1 w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:41:35][stdin]merge into m1 t
+        using m1 w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:43:28][stdin]merge into ase1..m1 t
+        using ase1..m1 w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:44:04][stdin]merge into ase1..m1 t
+        using ase1..m1 w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert into (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:44:58][stdin]merge into ase1..m1 t
+        using ase1..m1 w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:45:19][stdin]merge into ase1..m1 as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:46:09][stdin]select * from ase1..m1
+go
+[2014/01/26 19:46:11][stdin]select * from ase1..m1_w
+go
+[2014/01/26 19:47:13][stdin]merge into ase1..m1 (id,name,age) as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:49:37][stdin]merge into ase1..m1 as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:50:09][stdin]merge into ase1..m1 as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set t.name = w.name, t.age = w.age
+          when not matched
+                then insert (t.id,t.name,t.age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:50:31][argN]
+[2014/01/26 19:51:57][argN]
+[2014/01/26 19:53:14][stdin]merge into ase1..m1 as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set id = w.id, name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:53:35][stdin]merge into ase1..m1 as t
+        using ase1..m1 as w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:53:54][stdin]merge into ase1..m1 as t
+        using ase1..m1_w as w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:54:43][stdin]drop table m1
+go
+[2014/01/26 19:54:43][stdin]drop table m1_w
+go
+[2014/01/26 19:54:43][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:54:43][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:54:43][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:54:43][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:54:43][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:54:43][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:54:43][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:54:43][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:54:44][stdin]merge
+	into m1 t
+	using table_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:54:44][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:55:46][stdin]drop table m1
+go
+[2014/01/26 19:55:46][stdin]drop table m1_w
+go
+[2014/01/26 19:55:46][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:55:46][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:55:46][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:55:47][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:55:47][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:55:47][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:55:47][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:55:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:55:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:55:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:57:16][stdin]drop table m1
+go
+[2014/01/26 19:57:16][stdin]drop table m1_w
+go
+[2014/01/26 19:57:16][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:57:16][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:57:16][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:57:16][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:57:16][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:57:16][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:57:16][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:57:16][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:57:16][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:57:16][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:57:48][stdin]drop table m1
+go
+[2014/01/26 19:57:48][stdin]drop table m1_w
+go
+[2014/01/26 19:57:48][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:57:48][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:57:48][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:57:48][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:57:48][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:57:48][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:57:48][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:57:48][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:57:48][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:57:48][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:58:39][stdin]drop table m1
+go
+[2014/01/26 19:58:39][stdin]drop table m1_w
+go
+[2014/01/26 19:58:39][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:58:39][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:58:39][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:58:39][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:58:39][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:58:39][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:58:39][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:58:39][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:58:39][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:58:39][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:58:46][stdin]drop table m1
+go
+[2014/01/26 19:58:46][stdin]drop table m1_w
+go
+[2014/01/26 19:58:46][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:58:46][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:58:46][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:58:46][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:58:47][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:58:47][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:58:47][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:58:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:58:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:58:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:59:04][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:59:04][stdin]select * from t1
+go
+[2014/01/26 19:59:04][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:59:04][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 19:59:04][stdin]sp_helpconstraint t2
+go
+[2014/01/26 19:59:04][stdin]delete t1 
+go
+[2014/01/26 19:59:04][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 19:59:04][stdin]select * from t1
+go
+
+go
+[2014/01/26 19:59:04][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:59:04][stdin]sp_help
+go
+[2014/01/26 19:59:04][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:59:04][stdin]select * from t1
+go
+[2014/01/26 19:59:05][stdin]select * from t1
+go
+[2014/01/26 19:59:05][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 19:59:05][stdin]sp_help
+go
+[2014/01/26 19:59:05][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 19:59:05][stdin]select * from t1
+go
+[2014/01/26 19:59:05][stdin]select * from t1
+go
+[2014/01/26 19:59:05][stdin]drop table t3
+go
+[2014/01/26 19:59:05][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 19:59:05][stdin]drop table t3_w
+go
+[2014/01/26 19:59:05][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 19:59:05][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 19:59:05][argFile]-i /home/app/sybase/tmp/26218.sql
+[2014/01/26 19:59:05][stdin]sp_help
+go
+[2014/01/26 19:59:05][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 19:59:06][stdin]drop table m1
+go
+[2014/01/26 19:59:06][stdin]drop table m1_w
+go
+[2014/01/26 19:59:06][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:59:06][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 19:59:06][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 19:59:06][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 19:59:06][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 19:59:06][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 19:59:06][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 19:59:06][stdin]sp_helpconstraint m1
+go
+[2014/01/26 19:59:06][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 19:59:06][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 19:59:06][stdin]drop table t1_w
+go
+[2014/01/26 19:59:06][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 19:59:06][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 19:59:06][argFile]-i /home/app/sybase/tmp/26626.sql
+[2014/01/26 19:59:06][stdin]sp_help
+go
+[2014/01/26 19:59:07][arg1]sp_help
+go
+[2014/01/26 20:02:31][stdin]truncate table m1
+go
+[2014/01/26 20:02:31][stdin]insert into m1 values ('1','aaa','11')
+go
+[2014/01/26 20:02:31][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:02:31][stdin]drop table m1_w
+go
+[2014/01/26 20:02:31][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:02:31][argFile]-i /home/app/sybase/tmp/26824.sql
+[2014/01/26 20:02:31][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:02:32][stdin]sp_helpconstraint m1_w
+go
+[2014/01/26 20:02:32][stdin]merge
+	into m1_w t
+	using m1_w_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:02:32][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:04:00][stdin]truncate table m1
+go
+[2014/01/26 20:04:00][stdin]insert into m1 values ('1','aaa','11')
+go
+[2014/01/26 20:04:00][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:04:00][stdin]drop table m1_w
+go
+[2014/01/26 20:04:00][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:04:00][argFile]-i /home/app/sybase/tmp/27071.sql
+[2014/01/26 20:04:00][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:04:00][stdin]sp_helpconstraint m1_w
+go
+[2014/01/26 20:04:01][stdin]merge
+	into m1_w t
+	using m1_w_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:04:01][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:04:55][stdin]truncate table m1
+go
+[2014/01/26 20:04:55][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:04:55][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:04:56][stdin]drop table m1_w
+go
+[2014/01/26 20:04:56][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:04:56][argFile]-i /home/app/sybase/tmp/27317.sql
+[2014/01/26 20:04:56][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:04:56][stdin]sp_helpconstraint m1_w
+go
+[2014/01/26 20:04:56][stdin]merge
+	into m1_w t
+	using m1_w_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:04:56][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:05:47][stdin]truncate table m1
+go
+[2014/01/26 20:05:47][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:05:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:05:47][stdin]drop table m1_w
+go
+[2014/01/26 20:05:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:05:47][argFile]-i /home/app/sybase/tmp/27563.sql
+[2014/01/26 20:05:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:05:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:05:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:05:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:06:36][stdin]select * from m1_w
+go
+[2014/01/26 20:10:10][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:10:11][stdin]select * from t1
+go
+[2014/01/26 20:10:11][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:10:11][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 20:10:11][stdin]sp_helpconstraint t2
+go
+[2014/01/26 20:10:11][stdin]delete t1 
+go
+[2014/01/26 20:10:11][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 20:10:11][stdin]select * from t1
+go
+
+go
+[2014/01/26 20:10:11][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:10:11][stdin]sp_help
+go
+[2014/01/26 20:10:11][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:10:11][stdin]select * from t1
+go
+[2014/01/26 20:10:11][stdin]select * from t1
+go
+[2014/01/26 20:10:11][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:10:12][stdin]sp_help
+go
+[2014/01/26 20:10:12][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:10:12][stdin]select * from t1
+go
+[2014/01/26 20:10:12][stdin]select * from t1
+go
+[2014/01/26 20:10:12][stdin]drop table t3
+go
+[2014/01/26 20:10:12][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 20:10:12][stdin]drop table t3_w
+go
+[2014/01/26 20:10:12][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 20:10:12][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 20:10:12][argFile]-i /home/app/sybase/tmp/28190.sql
+[2014/01/26 20:10:12][stdin]sp_help
+go
+[2014/01/26 20:10:12][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 20:10:12][stdin]drop table m1
+go
+[2014/01/26 20:10:12][stdin]drop table m1_w
+go
+[2014/01/26 20:10:12][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:10:12][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:10:12][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:10:13][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:10:13][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:10:13][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:10:13][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:10:13][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:10:13][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:10:13][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:10:13][stdin]drop table t1_w
+go
+[2014/01/26 20:10:13][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 20:10:13][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 20:10:13][argFile]-i /home/app/sybase/tmp/28598.sql
+[2014/01/26 20:10:13][stdin]sp_help
+go
+[2014/01/26 20:10:13][arg1]sp_help
+go
+[2014/01/26 20:10:14][stdin]truncate table m1
+go
+[2014/01/26 20:10:14][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:10:14][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:10:14][stdin]drop table m1_w
+go
+[2014/01/26 20:10:14][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:10:14][argFile]-i /home/app/sybase/tmp/28768.sql
+[2014/01/26 20:10:14][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:10:14][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:10:14][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:10:14][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:11:59][stdin]truncate table m1
+go
+[2014/01/26 20:11:59][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:11:59][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:11:59][stdin]drop table m1_w
+go
+[2014/01/26 20:11:59][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:11:59][argFile]-i /home/app/sybase/tmp/29028.sql
+[2014/01/26 20:11:59][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:11:59][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:11:59][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:11:59][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:12:47][stdin]drop table m1
+go
+[2014/01/26 20:12:47][stdin]create table m1 (id varchar(10), name varchar(10), age null)
+go
+[2014/01/26 20:12:47][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:12:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:12:47][stdin]drop table m1_w
+go
+[2014/01/26 20:12:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:12:47][argFile]-i /home/app/sybase/tmp/29290.sql
+[2014/01/26 20:12:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:12:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:12:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:12:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:13:07][stdin]drop table m1
+go
+[2014/01/26 20:13:07][stdin]create table m1 (id varchar(10), name varchar(10), age null)
+go
+[2014/01/26 20:13:07][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:13:08][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:13:08][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:13:08][argFile]-i /home/app/sybase/tmp/29532.sql
+[2014/01/26 20:13:08][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:13:08][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:13:08][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:13:08][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:13:25][stdin]drop table m1
+go
+[2014/01/26 20:13:25][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:13:25][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:13:25][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:13:25][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:13:25][argFile]-i /home/app/sybase/tmp/29774.sql
+[2014/01/26 20:13:25][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:13:26][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:13:26][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:13:26][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:14:46][stdin]drop table m1
+go
+[2014/01/26 20:14:46][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:14:46][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:14:46][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:14:46][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:14:46][stdin]drop table m1_w
+go
+[2014/01/26 20:14:46][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:14:46][argFile]-i /home/app/sybase/tmp/30052.sql
+[2014/01/26 20:14:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:14:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:14:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:14:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:15:43][stdin]drop table m1
+go
+[2014/01/26 20:15:43][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:15:43][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:15:43][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:15:43][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:15:43][stdin]drop table m1_w
+go
+[2014/01/26 20:15:44][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:15:44][argFile]-i /home/app/sybase/tmp/30330.sql
+[2014/01/26 20:15:44][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:15:44][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:15:44][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:15:44][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:16:19][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:16:20][stdin]select * from t1
+go
+[2014/01/26 20:16:20][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:20][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 20:16:20][stdin]sp_helpconstraint t2
+go
+[2014/01/26 20:16:20][stdin]delete t1 
+go
+[2014/01/26 20:16:20][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 20:16:20][stdin]select * from t1
+go
+
+go
+[2014/01/26 20:16:20][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:16:20][stdin]sp_help
+go
+[2014/01/26 20:16:20][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:20][stdin]select * from t1
+go
+[2014/01/26 20:16:20][stdin]select * from t1
+go
+[2014/01/26 20:16:21][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:16:21][stdin]sp_help
+go
+[2014/01/26 20:16:21][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:21][stdin]select * from t1
+go
+[2014/01/26 20:16:21][stdin]select * from t1
+go
+[2014/01/26 20:16:21][stdin]drop table t3
+go
+[2014/01/26 20:16:21][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 20:16:21][stdin]drop table t3_w
+go
+[2014/01/26 20:16:21][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 20:16:21][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 20:16:21][argFile]-i /home/app/sybase/tmp/30932.sql
+[2014/01/26 20:16:22][stdin]sp_help
+go
+[2014/01/26 20:16:22][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 20:16:22][stdin]drop table m1
+go
+[2014/01/26 20:16:22][stdin]drop table m1_w
+go
+[2014/01/26 20:16:22][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:16:22][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:16:22][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:16:22][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:16:22][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:16:22][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:16:22][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:16:22][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:16:22][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:16:22][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:16:22][stdin]drop table t1_w
+go
+[2014/01/26 20:16:23][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 20:16:23][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 20:16:23][argFile]-i /home/app/sybase/tmp/31341.sql
+[2014/01/26 20:16:23][stdin]sp_help
+go
+[2014/01/26 20:16:23][stdin]drop table m1
+go
+[2014/01/26 20:16:23][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:16:23][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:16:23][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:16:23][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:16:23][stdin]drop table m1_w
+go
+[2014/01/26 20:16:23][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:16:23][argFile]-i /home/app/sybase/tmp/31530.sql
+[2014/01/26 20:16:23][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:24][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:16:24][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:16:24][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:16:24][arg1]sp_help
+go
+[2014/01/26 20:16:24][stdin]truncate table m1
+go
+[2014/01/26 20:16:24][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:16:24][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:16:24][stdin]drop table m1_w
+go
+[2014/01/26 20:16:24][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:16:24][argFile]-i /home/app/sybase/tmp/31789.sql
+[2014/01/26 20:16:24][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:25][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:16:25][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:16:25][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:16:38][stdin]truncate table m1
+go
+[2014/01/26 20:16:38][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:16:38][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:16:38][stdin]drop table m1_w
+go
+[2014/01/26 20:16:38][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:16:38][argFile]-i /home/app/sybase/tmp/32046.sql
+[2014/01/26 20:16:38][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:16:38][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:16:38][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:16:38][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:19:18][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:19:27][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:20:18][stdin]drop table m1
+go
+[2014/01/26 20:20:18][stdin]drop table m1_w
+go
+[2014/01/26 20:20:19][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:20:19][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:20:19][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:20:19][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:20:19][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:20:19][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:20:19][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:20:19][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:20:19][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:20:19][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:20:25][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:22:08][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:22:08][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:22:08][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:22:08][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:22:08][stdin]drop table m1_w
+go
+[2014/01/26 20:22:08][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:22:08][argFile]-i /home/app/sybase/tmp/355.sql
+[2014/01/26 20:22:08][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:22:08][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:22:09][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:22:09][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:22:26][stdin]drop table m1
+go
+[2014/01/26 20:22:26][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:22:26][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:22:26][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:22:26][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:22:26][stdin]drop table m1_w
+go
+[2014/01/26 20:22:26][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:22:26][argFile]-i /home/app/sybase/tmp/669.sql
+[2014/01/26 20:22:26][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:22:26][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:22:26][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:22:27][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:22:54][stdin]drop table m1
+go
+[2014/01/26 20:22:54][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:22:54][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:22:54][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:22:54][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:22:54][stdin]drop table m1_w
+go
+[2014/01/26 20:22:54][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:22:54][argFile]-i /home/app/sybase/tmp/1004.sql
+[2014/01/26 20:22:54][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:22:54][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:22:54][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:22:55][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:25:37][stdin]drop table m1
+go
+[2014/01/26 20:25:37][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:25:37][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:25:37][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:25:37][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:25:37][stdin]drop table m1_w
+go
+[2014/01/26 20:25:37][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:25:37][argFile]-i /home/app/sybase/tmp/1603.sql
+[2014/01/26 20:25:37][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:25:37][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:25:37][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:25:37][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:26:48][stdin]drop table m1
+go
+[2014/01/26 20:26:48][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:26:48][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:26:48][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:26:48][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:26:48][stdin]drop table m1_w
+go
+[2014/01/26 20:26:48][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:26:48][argFile]-i /home/app/sybase/tmp/1997.sql
+[2014/01/26 20:26:48][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:26:48][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:26:48][stdin]merge
+	into m1 t
+	using m1_w w
+	on 
+	  when matched 
+		then update set t.id = w.id, t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:26:48][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:27:21][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:27:29][stdin]alter talbe m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:27:43][stdin]drop table m1
+go
+[2014/01/26 20:27:43][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:27:43][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:27:43][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:27:43][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:27:43][stdin]drop table m1_w
+go
+[2014/01/26 20:27:43][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:27:43][argFile]-i /home/app/sybase/tmp/2345.sql
+[2014/01/26 20:27:43][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:27:44][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:27:44][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:27:44][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:29:23][stdin]drop table m1
+go
+[2014/01/26 20:29:23][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:29:23][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:29:23][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:29:23][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:29:23][stdin]drop table m1_w
+go
+[2014/01/26 20:29:23][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:29:23][argFile]-i /home/app/sybase/tmp/2624.sql
+[2014/01/26 20:29:23][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:29:24][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:29:24][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:29:24][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:30:02][stdin]drop table m1
+go
+[2014/01/26 20:30:02][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:30:02][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:30:02][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:30:02][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:30:02][stdin]drop table m1_w
+go
+[2014/01/26 20:30:02][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:30:02][argFile]-i /home/app/sybase/tmp/2904.sql
+[2014/01/26 20:30:03][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:30:03][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:30:03][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:30:03][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:31:48][stdin]drop table m1
+go
+[2014/01/26 20:31:48][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:31:48][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:31:48][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:31:49][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:31:49][stdin]drop table m1_w
+go
+[2014/01/26 20:31:49][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:31:49][argFile]-i /home/app/sybase/tmp/3188.sql
+[2014/01/26 20:31:49][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:31:49][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:31:49][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:31:49][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:32:01][stdin]drop table m1
+go
+[2014/01/26 20:32:01][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:32:01][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:01][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:32:01][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:32:01][stdin]drop table m1_w
+go
+[2014/01/26 20:32:01][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:32:01][argFile]-i /home/app/sybase/tmp/3465.sql
+[2014/01/26 20:32:01][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:01][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:32:01][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:32:01][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:32:32][stdin]drop table m1
+go
+[2014/01/26 20:32:32][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:32:32][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:32][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:32:33][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:32:33][stdin]drop table m1_w
+go
+[2014/01/26 20:32:33][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:32:33][argFile]-i /home/app/sybase/tmp/3742.sql
+[2014/01/26 20:32:33][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:33][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:32:33][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:32:33][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:32:46][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:32:46][stdin]select * from t1
+go
+[2014/01/26 20:32:46][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:46][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 20:32:46][stdin]sp_helpconstraint t2
+go
+[2014/01/26 20:32:46][stdin]delete t1 
+go
+[2014/01/26 20:32:46][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 20:32:47][stdin]select * from t1
+go
+
+go
+[2014/01/26 20:32:47][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:32:47][stdin]sp_help
+go
+[2014/01/26 20:32:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:47][stdin]select * from t1
+go
+[2014/01/26 20:32:47][stdin]select * from t1
+go
+[2014/01/26 20:32:47][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:32:47][stdin]sp_help
+go
+[2014/01/26 20:32:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:48][stdin]select * from t1
+go
+[2014/01/26 20:32:48][stdin]select * from t1
+go
+[2014/01/26 20:32:48][stdin]drop table t3
+go
+[2014/01/26 20:32:48][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 20:32:48][stdin]drop table t3_w
+go
+[2014/01/26 20:32:48][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 20:32:48][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 20:32:48][argFile]-i /home/app/sybase/tmp/4352.sql
+[2014/01/26 20:32:48][stdin]sp_help
+go
+[2014/01/26 20:32:48][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 20:32:49][stdin]drop table m1
+go
+[2014/01/26 20:32:49][stdin]drop table m1_w
+go
+[2014/01/26 20:32:49][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:32:49][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:32:49][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:49][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:49][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:32:49][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:32:49][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:32:49][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:32:49][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:32:49][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:32:49][stdin]drop table t1_w
+go
+[2014/01/26 20:32:49][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 20:32:49][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 20:32:49][argFile]-i /home/app/sybase/tmp/4812.sql
+[2014/01/26 20:32:49][stdin]sp_help
+go
+[2014/01/26 20:32:49][stdin]drop table m1
+go
+[2014/01/26 20:32:50][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:32:50][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:50][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:32:50][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:32:50][stdin]drop table m1_w
+go
+[2014/01/26 20:32:50][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:32:50][argFile]-i /home/app/sybase/tmp/5001.sql
+[2014/01/26 20:32:50][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:50][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:32:50][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:32:50][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:32:50][arg1]sp_help
+go
+[2014/01/26 20:32:50][stdin]drop table m1
+go
+[2014/01/26 20:32:50][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:32:51][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:32:51][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:32:51][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:32:51][stdin]drop table m1_w
+go
+[2014/01/26 20:32:51][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:32:51][argFile]-i /home/app/sybase/tmp/5295.sql
+[2014/01/26 20:32:51][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:32:51][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:32:51][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:32:51][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:39:43][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:39:44][stdin]select * from t1
+go
+[2014/01/26 20:39:44][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:39:44][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 20:39:44][stdin]sp_helpconstraint t2
+go
+[2014/01/26 20:39:44][stdin]delete t1 
+go
+[2014/01/26 20:39:44][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 20:39:44][stdin]select * from t1
+go
+
+go
+[2014/01/26 20:39:44][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:39:44][stdin]sp_help
+go
+[2014/01/26 20:39:44][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:39:44][stdin]select * from t1
+go
+[2014/01/26 20:39:44][stdin]select * from t1
+go
+[2014/01/26 20:39:44][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:39:44][stdin]sp_help
+go
+[2014/01/26 20:39:45][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:39:45][stdin]select * from t1
+go
+[2014/01/26 20:39:45][stdin]select * from t1
+go
+[2014/01/26 20:39:45][stdin]drop table t3
+go
+[2014/01/26 20:39:45][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 20:39:45][stdin]drop table t3_w
+go
+[2014/01/26 20:39:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 20:39:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 20:39:45][argFile]-i /home/app/sybase/tmp/5929.sql
+[2014/01/26 20:39:45][stdin]sp_help
+go
+[2014/01/26 20:39:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 20:39:45][stdin]drop table m1
+go
+[2014/01/26 20:39:45][stdin]drop table m1_w
+go
+[2014/01/26 20:39:45][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:39:46][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:39:46][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:39:46][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:39:46][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:39:46][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:39:46][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:39:46][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:39:46][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:39:46][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:39:46][stdin]drop table t1_w
+go
+[2014/01/26 20:39:46][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 20:39:46][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 20:39:46][argFile]-i /home/app/sybase/tmp/6337.sql
+[2014/01/26 20:39:46][stdin]sp_help
+go
+[2014/01/26 20:39:46][stdin]drop table m1
+go
+[2014/01/26 20:39:46][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:39:46][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:39:46][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:39:46][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:39:46][stdin]drop table m1_w
+go
+[2014/01/26 20:39:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:39:47][argFile]-i /home/app/sybase/tmp/6526.sql
+[2014/01/26 20:39:47][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:39:47][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:39:47][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:39:47][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:39:47][arg1]sp_help
+go
+[2014/01/26 20:39:47][stdin]drop table m1
+go
+[2014/01/26 20:39:47][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:39:47][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:39:47][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:39:47][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:39:47][stdin]drop table m1_w
+go
+[2014/01/26 20:39:47][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:39:47][argFile]-i /home/app/sybase/tmp/6820.sql
+[2014/01/26 20:39:48][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:39:48][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:39:48][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set t.name = w.name, t.age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:39:48][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:44:43][stdin]merge
+        into m1 t
+        using m1_w w
+        on t.id = w.id
+          when matched
+                then update set name = w.name, age = w.age
+          when not matched
+                then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:45:40][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:45:40][stdin]select * from t1
+go
+[2014/01/26 20:45:40][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:45:40][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/01/26 20:45:40][stdin]sp_helpconstraint t2
+go
+[2014/01/26 20:45:41][stdin]delete t1 
+go
+[2014/01/26 20:45:41][stdin]insert into t1 values ('1', 'aaa')
+go
+[2014/01/26 20:45:41][stdin]select * from t1
+go
+
+go
+[2014/01/26 20:45:41][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:45:41][stdin]sp_help
+go
+[2014/01/26 20:45:41][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:45:41][stdin]select * from t1
+go
+[2014/01/26 20:45:41][stdin]select * from t1
+go
+[2014/01/26 20:45:41][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/01/26 20:45:41][stdin]sp_help
+go
+[2014/01/26 20:45:42][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:45:42][stdin]select * from t1
+go
+[2014/01/26 20:45:42][stdin]select * from t1
+go
+[2014/01/26 20:45:42][stdin]drop table t3
+go
+[2014/01/26 20:45:42][stdin]create table t3 (id varchar(10), type varchar(10), name varchar(100), age int)
+go
+[2014/01/26 20:45:42][stdin]drop table t3_w
+go
+[2014/01/26 20:45:42][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't3_w'
+go
+[2014/01/26 20:45:42][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3'
+go
+[2014/01/26 20:45:42][argFile]-i /home/app/sybase/tmp/7459.sql
+[2014/01/26 20:45:42][stdin]sp_help
+go
+[2014/01/26 20:45:43][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't3_w'
+go
+[2014/01/26 20:45:43][stdin]drop table m1
+go
+[2014/01/26 20:45:43][stdin]drop table m1_w
+go
+[2014/01/26 20:45:43][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:45:43][stdin]create table m1_w (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:45:43][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:45:43][stdin]alter table m1_w add PRIMARY KEY (id)
+go
+[2014/01/26 20:45:43][stdin]insert into m1 values ('1', 'aaa', 20)
+go
+[2014/01/26 20:45:43][stdin]insert into m1_w values ('1', 'aab', 11)
+go
+[2014/01/26 20:45:43][stdin]insert into m1_w values ('2', 'bbb', 22)
+go
+[2014/01/26 20:45:43][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:45:43][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set name = w.name, age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:45:43][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:45:43][stdin]drop table t1_w
+go
+[2014/01/26 20:45:43][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 't1_w'
+go
+[2014/01/26 20:45:43][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 't1'
+go
+[2014/01/26 20:45:43][argFile]-i /home/app/sybase/tmp/7868.sql
+[2014/01/26 20:45:43][stdin]sp_help
+go
+[2014/01/26 20:45:44][stdin]drop table m1
+go
+[2014/01/26 20:45:44][stdin]create table m1 (id varchar(10), name varchar(10), age int null)
+go
+[2014/01/26 20:45:44][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:45:44][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:45:44][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:45:44][stdin]drop table m1_w
+go
+[2014/01/26 20:45:44][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:45:44][argFile]-i /home/app/sybase/tmp/8057.sql
+[2014/01/26 20:45:44][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:45:44][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:45:44][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set name = w.name 
+	  when not matched 
+		then insert (id,name) values (w.id,w.name)
+go
+[2014/01/26 20:45:44][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 20:45:44][arg1]sp_help
+go
+[2014/01/26 20:45:44][stdin]drop table m1
+go
+[2014/01/26 20:45:44][stdin]create table m1 (id varchar(10), name varchar(20), age int)
+go
+[2014/01/26 20:45:45][stdin]alter table m1 add PRIMARY KEY (id)
+go
+[2014/01/26 20:45:45][stdin]insert into m1 values ('1','aaa',11)
+go
+[2014/01/26 20:45:45][stdin]set nocount on 
+go
+ select 1 from sysobjects where name = 'm1_w'
+go
+[2014/01/26 20:45:45][stdin]drop table m1_w
+go
+[2014/01/26 20:45:45][stdin]set nocount on 
+go
+ select c.colid, c.name, t.name, c.length
+       from sysobjects o, syscolumns c, systypes t 
+       where 
+               o.id = c.id 
+           and c.usertype = t.usertype
+           and o.name = 'm1'
+go
+[2014/01/26 20:45:45][argFile]-i /home/app/sybase/tmp/8351.sql
+[2014/01/26 20:45:45][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/01/26 20:45:45][stdin]sp_helpconstraint m1
+go
+[2014/01/26 20:45:45][stdin]merge
+	into m1 t
+	using m1_w w
+	on t.id = w.id 
+	  when matched 
+		then update set name = w.name, age = w.age 
+	  when not matched 
+		then insert (id,name,age) values (w.id,w.name,w.age)
+go
+[2014/01/26 20:45:45][stdin]set nocount on 
+go
+ select * from m1
+go
+[2014/01/26 21:13:00][stdin]drop table test_table
+go
+[2014/01/26 21:13:00][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:13:00][stdin]alter table add INDEX test_table (id)
+go
+[2014/01/26 21:13:00][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:22:03][stdin]drop table test_table
+go
+[2014/01/26 21:22:03][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:22:04][stdin]create nonclustered index  test_table_i1 on test_table (id)
+go
+[2014/01/26 21:22:04][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:22:22][stdin]drop table test_table
+go
+[2014/01/26 21:22:22][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:22:22][stdin]create nonclustered index  test_table_i1 on test_table (id, from_date)
+go
+[2014/01/26 21:22:22][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:23:27][stdin]drop table test_table
+go
+[2014/01/26 21:23:27][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:23:27][stdin]alter table test_table add PRIMARY KEY (id) 
+go
+[2014/01/26 21:23:27][stdin]create nonclustered index  test_table_i1 on test_table (id, from_date)
+go
+[2014/01/26 21:23:27][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:23:48][stdin]drop table test_table
+go
+[2014/01/26 21:23:48][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:23:48][stdin]alter table test_table add PRIMARY KEY (id) 
+go
+[2014/01/26 21:24:01][stdin]create nonclustered index  test_table_i1 on test_table (id, from_date)
+go
+[2014/01/26 21:24:03][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:24:27][stdin]drop table test_table
+go
+[2014/01/26 21:25:04][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 21:25:05][stdin]alter table test_table add PRIMARY KEY (id) 
+go
+[2014/01/26 21:25:06][stdin]create nonclustered index  test_table_i1 on test_table (id, from_date)
+go
+[2014/01/26 21:25:06][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 21:30:48][stdin]select * from m1
+go
+[2014/01/26 21:31:21][stdin]insert into  m1 values ('1', 'ccc', 29)
+go
+[2014/01/26 23:40:06][stdin] dump transaction ase1 with no_log
+go
+[2014/01/26 23:40:16][stdin]insert into  m1 values ('1', 'ccc', 29)
+go
+[2014/01/26 23:40:23][stdin]insert into  m1 values ('5', 'ccc', 29)
+go
+[2014/01/26 23:40:27][stdin]select * from m1
+go
+[2014/01/26 23:47:39][stdin] dump transaction ase1 with no_log
+go
+[2014/01/26 23:47:55][stdin]drop table test_table
+go
+[2014/01/26 23:47:55][stdin]create table test_table (id varchar(10), from_date datetime, name varchar(10), label varchar(10))
+go
+[2014/01/26 23:47:55][stdin]alter table test_table add PRIMARY KEY (id) 
+go
+[2014/01/26 23:47:55][stdin]create nonclustered index  test_table_i1 on test_table (id, from_date)
+go
+[2014/01/26 23:47:55][stdin]sp_helpconstraint test_table
+go
+[2014/01/26 23:48:43][stdin]sp_help test_table
+go
+[2014/01/26 23:49:17][stdin]sp_helpindex test_table
+go
