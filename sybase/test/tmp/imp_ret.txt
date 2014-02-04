@@ -1,5 +1,0 @@
- id         name       
- ---------- ---------- 
- 2          bbb        
-
-(1 row affected)
