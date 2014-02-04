@@ -1,3 +1,6 @@
 tmp/*
+<<<<<<< HEAD
 log/*
+=======
+>>>>>>> 70d0e497cde74e807c33f19466c5faa9d639987c
 sybase_env.sh
