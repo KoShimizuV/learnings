@@ -19,21 +19,21 @@ public class UnZip{
             
             while(entries.hasMoreElements()){
             
-                // ‰ğ“€‚·‚éƒtƒ@ƒCƒ‹ˆê——‚ğæ“¾‚·‚é
+                // è§£å‡ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ä¸€è¦§ã‚’å–å¾—ã™ã‚‹
                 ZipEntry zipEntry = (ZipEntry) entries.nextElement();
                 
                 File file = new File(zipEntry.getName());
             
-                // Ši”[‚³‚ê‚Ä‚¢‚éƒtƒ@ƒCƒ‹‚ğæ‚èo‚·
+                // æ ¼ç´ã•ã‚Œã¦ã„ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å–ã‚Šå‡ºã™
                 BufferedInputStream bis = new BufferedInputStream(zipFile.getInputStream(zipEntry));
 
                 BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(file));
                 
                 int c;
                 
-                // ƒf[ƒ^‚Ì“Ç‚İo‚µ
+                // ãƒ‡ãƒ¼ã‚¿ã®èª­ã¿å‡ºã—
                 while( ( c = bis.read()) != -1 ){
-                    // ƒf[ƒ^‚Ì‘‚«‚İ
+                    // ãƒ‡ãƒ¼ã‚¿ã®æ›¸ãè¾¼ã¿
                     bos.write((byte)c);
                 }
                 
