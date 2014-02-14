@@ -7,34 +7,34 @@ import java.util.zip.GZIPInputStream;
 
 /** 
  * http://www.atmarkit.co.jp/ait/articles/0710/24/news119_2.html
- * gzipƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚ŞƒTƒ“ƒvƒ‹ 
+ * gzipãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚€ã‚µãƒ³ãƒ—ãƒ« 
  */
 public class Zcat {
     public static void main(final String[] args) 
     throws IOException {
         try {
             final File file = new File("gzipsample.gz");
-            System.out.println("gzipƒtƒ@ƒCƒ‹“Ç: ŠJn: " +
+            System.out.println("gzipãƒ•ã‚¡ã‚¤ãƒ«èª­è¾¼: é–‹å§‹: " +
                 file.getAbsolutePath());
             new Zcat().process(file);
-            System.out.println("gzipƒtƒ@ƒCƒ‹“Ç: I—¹");
+            System.out.println("gzipãƒ•ã‚¡ã‚¤ãƒ«èª­è¾¼: çµ‚äº†");
         } catch (IOException e) {
-            System.out.println("gzipƒtƒ@ƒCƒ‹“Ç’†‚É"+
-                "—áŠO‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—’†’f‚µ‚Ü‚·:" + 
+            System.out.println("gzipãƒ•ã‚¡ã‚¤ãƒ«èª­è¾¼ä¸­ã«"+
+                "ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ä¸­æ–­ã—ã¾ã™:" + 
                  e.toString());
         }
     }
     /**
-     * gzipƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚İ‚Ü‚·
+     * gzipãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã¿ã¾ã™
      * 
-     * @param file “ü—Í‚·‚égzipƒtƒ@ƒCƒ‹
-     * @throws IOException “üo—Í—áŠO‚ª”­¶‚µ‚½ê‡
+     * @param file å…¥åŠ›ã™ã‚‹gzipãƒ•ã‚¡ã‚¤ãƒ«
+     * @throws IOException å…¥å‡ºåŠ›ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆ
      */
     public void process(final File file) throws IOException {
         final GZIPInputStream gzipInStream = new GZIPInputStream(
             new BufferedInputStream(new FileInputStream(file)));
         try {
-            /* ƒtƒ@ƒCƒ‹ƒf[ƒ^‚Ì“Ç‚İ‚İB */
+            /* ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‡ãƒ¼ã‚¿ã®èª­ã¿è¾¼ã¿ã€‚ */
             final ByteArrayOutputStream outStream 
                 = new ByteArrayOutputStream();
             for (;;) {
@@ -44,7 +44,7 @@ public class Zcat {
             }
             outStream.flush();
             outStream.close();
-            System.out.println(" “à—e: ["
+            System.out.println(" å†…å®¹: ["
                 + new String(outStream.toByteArray()) + "]");
         } finally {
             gzipInStream.close();
