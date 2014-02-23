@@ -1,5 +1,4 @@
- id         name       
- ---------- ---------- 
- 1          aaa        
+ id name 
+ -- ---- 
 
-(1 row affected)
+(0 rows affected)
