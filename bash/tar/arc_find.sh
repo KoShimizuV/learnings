@@ -13,5 +13,4 @@ if [ -s csv.tar.gz ] ; then
     rm -v csv.tar.gz
 fi
 
-files=`find csv -name "*.csv" -printf "%f "` 
-tar zcvf csv/arch/csv.tar.gz -C csv ${files}
+find csv -name "*.csv" -printf "%f " | xargs tar --remove-files -zcvf csv/arch/csv.tar.gz -C csv 
