@@ -9,6 +9,7 @@ BEGIN{
 }
 
 END {
+    print "N=" length(list)
     for(key in list){
         print list[key]
     }
