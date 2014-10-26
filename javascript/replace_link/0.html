@@ -1,0 +1,19 @@
+<html>
+<head><script type="text/javascript"><!--
+  function doRep(){
+    obj = document.getElementById("rep");
+    alert(obj.target);
+    obj.href="http://yahoo.co.jp";
+    alert(obj.href);
+    
+  }
+/*  function jump(){
+    
+  }
+  */
+--></script></head>
+<body>
+<a href="http://google.co.jp" target="_blank" id="rep">google</a>
+<input type="button" onclick="doRep()" value="replace" />
+</body>
+</html>

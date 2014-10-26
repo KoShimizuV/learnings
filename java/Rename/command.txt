@@ -1,0 +1,10 @@
+D:
+cd D:\MyDocuments\100_PC\00_Programing\Java\00_TOOL\Rename\dist\lib\
+
+jar xvf D:\MyDocuments\100_PC\00_Programing\Java\00_TOOL\Rename\dist\lib\MyProject-20090117.jar
+
+ <copy file="MANIFEST.MF" todir="${build}"/>
+
+
+jar cvfm JarTest.jar META-INF\MANIFEST.MF *.class
+

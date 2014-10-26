@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>子ウィンドウ</title>
+<script language="javascript">
+<!--
+function setFormInput(val){
+  if(!window.opener || window.opener.closed){
+    //親ウィンドウが存在しない
+    window.close();
+  } else{
+    //window.openerで親ウィンドウのオブジェクトを操作
+    window.opener.document.getElementById('title01').innerHTML = val;
+    window.opener.document.form01.text01.value = val;
+    window.close();
+  }
+}
+// -->
+</script>
+</head>
+<body>
+好きな果物を選んで下さい。
+<a href="javascript:setFormInput('いちご');">いちご</a><br>
+<a href="javascript:setFormInput('りんご');">りんご</a><br>
+<a href="javascript:setFormInput('みかん');">みかん</a><br>
+<input type="button" value="子ウィンドウを閉じる" onClick="window.close();return false;">
+</body>
+</html>

@@ -1,0 +1,2085 @@
+[2014/02/01 01:13:15][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/02/01 01:13:15][stdin]sp_help
+go
+[2014/02/01 01:13:15][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/02/01 01:13:15][stdin]select * from t1
+go
+[2014/02/01 01:13:15][stdin]select * from t1
+go
+[2014/02/01 01:13:28][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/02/01 01:13:28][stdin]sp_help
+go
+[2014/02/01 01:13:28][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/02/01 01:13:28][stdin]select * from t1
+go
+[2014/02/01 01:13:28][stdin]select * from t1
+go
+[2014/02/01 01:19:25][stdin]drop table t1 
+go
+ create table t1 (id varchar(10), name varchar(10))
+go
+[2014/02/01 01:19:25][stdin]sp_help
+go
+[2014/02/01 01:19:25][stdin]use master
+go
+ sp_dboption "ase1", "select into/bulkcopy", true 
+go
+[2014/02/01 01:19:25][stdin]select * from t1
+go
+[2014/02/01 01:19:25][stdin]select * from t1
+go
+[2014/02/01 01:22:19][arg1]sp_help
+go
+[2014/02/01 01:22:28][arg1]sp_help
+go
+[2014/02/01 01:24:03][arg1]sp_help
+go
+[2014/02/01 01:24:03]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 
+[2014/02/01 01:25:55][arg1]sp_help
+go
+[2014/02/01 01:25:55]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 
+[2014/02/01 01:27:08][arg1]sp_help
+go
+[2014/02/01 01:27:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 
+[2014/02/01 02:11:04][stdin]select * from t1
+go
+[2014/02/01 02:11:04][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:11:09][stdin]select * from tz
+go
+[2014/02/01 02:11:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:37:37][stdin]select * from t1
+go
+[2014/02/01 02:37:37][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:16][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:39:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:16][stdin]insert into ti values  (1, 10, 'a'),(2, 20, 'b'), (3, 30, 'c') 
+go
+[2014/02/01 02:39:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:16][stdin]select * from ti
+go
+[2014/02/01 02:39:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:25][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:39:25][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:25][stdin]insert into ti values  (1, 10, 'a') (2, 20, 'b') (3, 30, 'c') 
+go
+[2014/02/01 02:39:25][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:25][stdin]select * from ti
+go
+[2014/02/01 02:39:25][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:55][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:39:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:55][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:39:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:55][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:39:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:55][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:39:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:39:55][stdin]select * from ti
+go
+[2014/02/01 02:39:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:08][stdin]drop table ti
+go
+[2014/02/01 02:40:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:08][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:40:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:08][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:40:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:08][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:40:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:09][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:40:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:40:09][stdin]select * from ti
+go
+[2014/02/01 02:40:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]drop table ti
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]drop table ti2
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]select * from ti
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]select * from ti2
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:41:39][stdin]select id from ti
+go
+[2014/02/01 02:41:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]drop table ti
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]drop table ti2
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:08][stdin]select * from ti
+go
+[2014/02/01 02:42:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:09][stdin]select * from ti2
+go
+[2014/02/01 02:42:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:42:09][stdin]select id from ti where (id, type) in (select id, type from ti2)
+go
+[2014/02/01 02:42:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]drop table ti
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]drop table ti2
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:17][stdin]select * from ti
+go
+[2014/02/01 02:43:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:18][stdin]select * from ti2
+go
+[2014/02/01 02:43:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:18][stdin]select id from ti where (id, type) in (select id, type from ti2)
+go
+[2014/02/01 02:43:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:18][stdin]select a.id, a.type from ti a,  ti2 b where (a.id, a.type) = (b.id, b.type)
+go
+[2014/02/01 02:43:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]drop table ti
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]drop table ti2
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]select * from ti
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]select * from ti2
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:43:41][stdin]select a.id, a.type 
+       from ti a, ti2 b 
+       where (a.id, a.type) = (b.id, b.type)
+go
+[2014/02/01 02:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]drop table ti
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]drop table ti2
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]select * from ti
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]select * from ti2
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:44:05][stdin]select a.id, a.type 
+       from ti a, ti2 b 
+       where 
+        a.id   = b.id and
+        a.type = b.type
+go
+[2014/02/01 02:44:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]drop table ti
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]drop table ti2
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:01][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:46:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]select * from ti
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]select * from ti2
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:02][stdin]select id from ti where (id) in (select id from ti2)
+go
+[2014/02/01 02:46:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]drop table ti
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]drop table ti2
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]create table ti2 (id int, type int, name varchar(10))
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]select * from ti
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]select * from ti2
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 02:46:23][stdin]select id, type, name from ti where (id) in (select id from ti2)
+go
+[2014/02/01 02:46:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:31:56][stdin]select * from t1
+go
+[2014/02/01 18:31:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:31:59][stdin]select * from ti
+go
+[2014/02/01 18:31:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:32:01][stdin]select * from ti2
+go
+[2014/02/01 18:32:01][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:32:41][stdin]select * from ti where exists (select 1 from ti2 where id = ti.id and type = ti.type)
+go
+[2014/02/01 18:32:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:33:05][stdin]select * from ti a where exists (select 1 from ti2 where id = a.id and type = a.type)
+go
+[2014/02/01 18:33:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:37:14][stdin]select * from ti union select * from ti2
+go
+[2014/02/01 18:37:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:38:02][stdin]select * from ti union select * from ti2
+go
+[2014/02/01 18:38:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]drop table ts1
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]alter table add primary key ts1 (id, type)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]alter table add primary key ts2 (id, type)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts1 values (1, 10, a)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts1 values (2, 20, b)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts1 values (2, 30, c)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts2 values (1, 10, a)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts2 values (2, 20, b)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]insert into ts2 values (3, 30, c)
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]select * from ts1
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:28][stdin]select * from ts2
+go
+[2014/02/01 18:42:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]drop table ts1
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]alter table add primary key ts1 (id, type)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]alter table add primary key ts2 (id, type)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]insert into ts1 values (1, 10, a)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]insert into ts1 values (2, 20, b)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]insert into ts1 values (2, 30, c)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:30][stdin]insert into ts2 values (1, 10, a)
+go
+[2014/02/01 18:42:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:31][stdin]insert into ts2 values (2, 20, b)
+go
+[2014/02/01 18:42:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:31][stdin]insert into ts2 values (3, 30, c)
+go
+[2014/02/01 18:42:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:31][stdin]select * from ts1
+go
+[2014/02/01 18:42:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:31][stdin]select * from ts2
+go
+[2014/02/01 18:42:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]drop table ts1
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]alter table add primary key ts1 (id, type)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]alter table add primary key ts2 (id, type)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts1 values (1, 10, a)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts1 values (2, 20, b)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts1 values (2, 30, c)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts2 values (1, 10, a)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts2 values (2, 20, b)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]insert into ts2 values (3, 30, c)
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]select * from ts1
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:42:50][stdin]select * from ts2
+go
+[2014/02/01 18:42:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]drop table ts1
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]drop table ts2
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]alter table add primary key ts1 (id, type)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]alter table add primary key ts2 (id, type)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts1 values (1, 10, a)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts1 values (2, 20, b)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts1 values (2, 30, c)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts2 values (1, 10, a)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts2 values (2, 20, b)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]insert into ts2 values (3, 30, c)
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]select * from ts1
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:43:14][stdin]select * from ts2
+go
+[2014/02/01 18:43:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]drop table ts1
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]drop table ts2
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts1 values (1, 10, a)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts1 values (2, 20, b)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts1 values (2, 30, c)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts2 values (1, 10, a)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts2 values (2, 20, b)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]insert into ts2 values (3, 30, c)
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]select * from ts1
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:44:13][stdin]select * from ts2
+go
+[2014/02/01 18:44:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]drop table ts1
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]drop table ts2
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]select * from ts1
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:45:03][stdin]select * from ts2
+go
+[2014/02/01 18:45:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]drop table ts1
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]drop table ts2
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:43][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]select * from ts1
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]select * from ts2
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]update ts1 a set name = b.name where exists (select * from ts2 where id = a.id and type = a.type) b
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:44][stdin]select * from ts1
+go
+[2014/02/01 18:50:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:55][stdin]drop table ts1
+go
+[2014/02/01 18:50:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:55][stdin]drop table ts2
+go
+[2014/02/01 18:50:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:55][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:55][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]select * from ts1
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]select * from ts2
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]update ts1 a set name = b.name where exists (select 1 from ts2 b where id = a.id and type = a.type)
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:56][stdin]select * from ts1
+go
+[2014/02/01 18:50:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:58][stdin]drop table ts1
+go
+[2014/02/01 18:50:58][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]drop table ts2
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]select * from ts1
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]select * from ts2
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]update ts1 a set name = b.name where exists (select 1 from ts2 b where id = a.id and type = a.type)
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:50:59][stdin]select * from ts1
+go
+[2014/02/01 18:50:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:10][stdin]drop table ts1
+go
+[2014/02/01 18:51:10][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:10][stdin]drop table ts2
+go
+[2014/02/01 18:51:10][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:10][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:51:10][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]select * from ts1
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]select * from ts2
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]update ts1 set name = b.name where exists (select 1 from ts2 b where id = a.id and type = a.type)
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:11][stdin]select * from ts1
+go
+[2014/02/01 18:51:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]drop table ts1
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]drop table ts2
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:45][stdin]select * from ts1
+go
+[2014/02/01 18:51:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:46][stdin]select * from ts2
+go
+[2014/02/01 18:51:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:46][stdin]update ts1 set name = b.name from ts2 b where id = b.id and type = b.type
+go
+[2014/02/01 18:51:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:51:46][stdin]select * from ts1
+go
+[2014/02/01 18:51:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]drop table ts1
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]drop table ts2
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]select * from ts1
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]select * from ts2
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]update ts1 a set a.name = b.name from ts2 b where a.id = b.id and a.type = b.type
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:52:20][stdin]select * from ts1
+go
+[2014/02/01 18:52:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]drop table ts1
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]drop table ts2
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts2 values (1, 10, 'a')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts2 values (2, 20, 'b')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]insert into ts2 values (3, 30, 'c')
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:17][stdin]select * from ts1
+go
+[2014/02/01 18:53:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:18][stdin]select * from ts2
+go
+[2014/02/01 18:53:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:18][stdin]update ts1 set a.name = b.name 
+       from ts1 a, ts2 b 
+       where a.id = b.id and a.type = b.type
+go
+[2014/02/01 18:53:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:18][stdin]select * from ts1
+go
+[2014/02/01 18:53:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]drop table ts1
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]drop table ts2
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts2 values (1, 10, 'x')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts2 values (2, 20, 'y')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]insert into ts2 values (3, 30, 'z')
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]select * from ts1
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]select * from ts2
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]update ts1 set a.name = b.name 
+       from ts1 a, ts2 b 
+       where a.id = b.id and a.type = b.type
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:53:45][stdin]select * from ts1
+go
+[2014/02/01 18:53:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:56][stdin]drop table ts1
+go
+[2014/02/01 18:56:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]drop table ts2
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts2 values (1, 10, 'x')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts2 values (2, 20, 'y')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]insert into ts2 values (3, 30, 'z')
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]select * from ts1
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]select * from ts2
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]update ts1 set a.name = b.name 
+       from ts1 a, ts2 b 
+       where a.id = b.id and a.type = b.type
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:56:57][stdin]select * from ts1
+go
+[2014/02/01 18:56:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:59:31][stdin]select * from ti, ti2 where ti.id = ti2.id and ti.type = ti2.type
+go
+[2014/02/01 18:59:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:59:44][stdin]select ti.* from ti, ti2 where ti.id = ti2.id and ti.type = ti2.type
+go
+[2014/02/01 18:59:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:59:56][stdin]select * from ti
+go
+[2014/02/01 18:59:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 18:59:58][stdin]select * from ti2
+go
+[2014/02/01 18:59:58][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:01:06][stdin]select * from ti where exists 
+(select 1 from ti2 where id = ti.id and type = ti.type)
+go
+[2014/02/01 19:01:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:50][stdin]drop table ts1
+go
+[2014/02/01 19:10:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:50][stdin]drop table ts2
+go
+[2014/02/01 19:10:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:50][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 19:10:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:50][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 19:10:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:50][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 19:10:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts2 values (1, 10, 'x')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts2 values (2, 20, 'y')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]insert into ts2 values (3, 30, 'z')
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]select * from ts1
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]select * from ts2
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]update ts1 set a.name = b.name 
+       from ts1 a, ts2 b 
+       where a.id = b.id and a.type = b.type
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:10:51][stdin]select * from ts1
+go
+[2014/02/01 19:10:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]drop table ti
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]drop table ti2
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]create table ti2 (id int, type int, namy varchar(10))
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]select * from ti
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:36][stdin]select * from ti2
+go
+[2014/02/01 19:16:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:37][stdin]select id, type, name from ti where (id) in (select id from ti2)
+go
+[2014/02/01 19:16:37][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:49][stdin]drop table ti
+go
+[2014/02/01 19:16:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:49][stdin]drop table ti2
+go
+[2014/02/01 19:16:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:49][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 19:16:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:49][stdin]create table ti2 (id int, type int, namy varchar(10))
+go
+[2014/02/01 19:16:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]select * from ti
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]select * from ti2
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]select id from ti where (id, type) in (select id, type from ti2)
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:16:50][stdin]select id, type, name from ti where (id) in (select id from ti2)
+go
+[2014/02/01 19:16:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]drop table ti
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]drop table ti2
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]create table ti2 (id int, type int, namy varchar(10))
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]select * from ti
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]select * from ti2
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]select id, type, name from ti where (id) in (select id from ti2)
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:00][stdin]select id from ti where (id, type) in (select id, type from ti2)
+go
+[2014/02/01 19:18:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]drop table ti
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]drop table ti2
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]create table ti (id int, type int, name varchar(10))
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]create table ti2 (id int, type int, namy varchar(10))
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]insert into ti values (1, 10, 'a')
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]insert into ti values (2, 20, 'b')
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]insert into ti values (3, 30, 'c')
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:29][stdin]insert into ti values (3, 40, 'c')
+go
+[2014/02/01 19:18:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]insert into ti2 values (3, 20, 'a')
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]insert into ti2 values (3, 30, 'b')
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]insert into ti2 values (5, 30, 'c')
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]select * from ti
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]select * from ti2
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]select id, type, name from ti where (id) in (select id from ti2)
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:18:30][stdin]select id from ti where (id, type) in (select id, type from ti2)
+go
+[2014/02/01 19:18:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:28:03][stdin]select * from ts1 union select * from ts2
+go
+[2014/02/01 19:28:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:06][stdin]select * from ts1
+go
+[2014/02/01 19:29:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:09][stdin]select first * from ts1
+go
+[2014/02/01 19:29:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:16][stdin]select first * from ts1 order by id
+go
+[2014/02/01 19:29:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:27][stdin]select first id, type, name from ts1 order by id
+go
+[2014/02/01 19:29:27][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:32][stdin]select TOP1 id, type, name from ts1 order by id
+go
+[2014/02/01 19:29:32][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 19:29:34][stdin]select TOP 1 id, type, name from ts1 order by id
+go
+[2014/02/01 19:29:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:23:20][stdin]select TOP 1 id, type, name from ts1 order by id
+go
+[2014/02/01 20:23:20][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:23:28][stdin]select TOP * name from ts1 order by id
+go
+[2014/02/01 20:23:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:23:31][stdin]select TOP 1 * name from ts1 order by id
+go
+[2014/02/01 20:23:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:23:36][stdin]select TOP 1 * name from ts1
+go
+[2014/02/01 20:23:36][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:23:40][stdin]select TOP 1 * from ts1
+go
+[2014/02/01 20:23:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:24:45][stdin]select TOP 2 10 * from ts1
+go
+[2014/02/01 20:24:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:24:48][stdin]select TOP 2 * from ts1
+go
+[2014/02/01 20:24:48][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:27:28][stdin]select TOP 2 * from ts1 limit 1
+go
+[2014/02/01 20:27:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:27:40][stdin]select TOP 2 Limit 10 * from ts1 
+go
+[2014/02/01 20:27:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:27:44][stdin]select TOP 2 Limit 1 * from ts1 
+go
+[2014/02/01 20:27:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:27:47][stdin]select TOP 2 Limit 2 * from ts1 
+go
+[2014/02/01 20:27:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:27:50][stdin]select TOP 2 Limit 3 * from ts1 
+go
+[2014/02/01 20:27:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:43:41][stdin]sp_configure 
+go
+[2014/02/01 20:43:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:43:45][stdin]sp_configure 
+go
+[2014/02/01 20:43:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 20:56:29][stdin]sp_helpsort
+go
+[2014/02/01 20:56:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:28][stdin]select current_time from t1
+go
+[2014/02/01 21:28:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:33][stdin]select *, current_time from t1
+go
+[2014/02/01 21:28:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:43][stdin]select *, 'a' from t1
+go
+[2014/02/01 21:28:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:47][stdin]select *, 'a' as a from t1
+go
+[2014/02/01 21:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:53][stdin]select *, current_time() as a from t1
+go
+[2014/02/01 21:28:53][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:28:57][stdin]select *, current_timestamp() as a from t1
+go
+[2014/02/01 21:28:57][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:03][stdin]select *, timestamp() as a from t1
+go
+[2014/02/01 21:29:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:10][stdin]select *, current_date() as a from t1
+go
+[2014/02/01 21:29:10][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:14][stdin]select *, date() as a from t1
+go
+[2014/02/01 21:29:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:18][stdin]select *, current_date() as a from t1
+go
+[2014/02/01 21:29:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:22][stdin]select *, current_date() from t1
+go
+[2014/02/01 21:29:22][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:29:34][stdin]select current_date() from t1
+go
+[2014/02/01 21:29:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:30:04][stdin]select current_date() from sys.dummy
+go
+[2014/02/01 21:30:04][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:30:09][stdin]select current_date() from SYS.DUMMY
+go
+[2014/02/01 21:30:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:31:21][stdin]sp_help
+go
+[2014/02/01 21:31:21][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:31:46][stdin]select current_date() from sysdummy
+go
+[2014/02/01 21:31:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:31:49][stdin]select current_date() from sys
+go
+[2014/02/01 21:31:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:31:55][stdin]select current_date() from sysdams
+go
+[2014/02/01 21:31:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:32:16][stdin]use master 
+go
+sp_help
+go
+[2014/02/01 21:32:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:32:19][stdin]use master 
+go
+sp_help
+go
+[2014/02/01 21:32:19][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:32:33][stdin]select current_date() from t1
+go
+[2014/02/01 21:32:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 21:32:38][stdin]select current_date()
+go
+[2014/02/01 21:32:38][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:17:56][stdin]select current_date()
+go
+[2014/02/01 22:17:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:18:08][stdin]select timestamp()
+go
+[2014/02/01 22:18:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:19:55][stdin]select current_time()
+go
+[2014/02/01 22:19:55][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:21:22][stdin]select timestamp()
+go
+[2014/02/01 22:21:22][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:24:02][stdin]select timestamp
+go
+[2014/02/01 22:24:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:32][stdin]drop table tt
+go
+[2014/02/01 22:27:32][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:32][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:27:32][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:32][stdin]insert to values (1, timestamp)
+go
+[2014/02/01 22:27:32][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:32][stdin]select * from tt
+go
+[2014/02/01 22:27:32][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:41][stdin]drop table tt
+go
+[2014/02/01 22:27:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:41][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:27:41][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:42][stdin]insert to values (1)
+go
+[2014/02/01 22:27:42][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:42][stdin]select * from tt
+go
+[2014/02/01 22:27:42][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:48][stdin]drop table tt
+go
+[2014/02/01 22:27:48][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:48][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:27:48][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:49][stdin]insert to tt values (1)
+go
+[2014/02/01 22:27:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:49][stdin]select * from tt
+go
+[2014/02/01 22:27:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:59][stdin]drop table tt
+go
+[2014/02/01 22:27:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:27:59][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:27:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:00][stdin]insert to tt values (1, timestamp)
+go
+[2014/02/01 22:28:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:00][stdin]select * from tt
+go
+[2014/02/01 22:28:00][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:11][stdin]drop table tt
+go
+[2014/02/01 22:28:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:11][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:28:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:11][stdin]insert into tt values (1, timestamp)
+go
+[2014/02/01 22:28:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:11][stdin]select * from tt
+go
+[2014/02/01 22:28:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:17][stdin]drop table tt
+go
+[2014/02/01 22:28:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:17][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:28:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:17][stdin]insert into tt values (1)
+go
+[2014/02/01 22:28:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:17][stdin]select * from tt
+go
+[2014/02/01 22:28:17][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:27][stdin]drop table tt
+go
+[2014/02/01 22:28:27][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:27][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:28:27][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:27][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:28:27][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:27][stdin]select * from tt
+go
+[2014/02/01 22:28:27][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:47][stdin]drop table tt
+go
+[2014/02/01 22:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:47][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:47][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:47][stdin]insert into tt (id, timestamp) values (2, timestmap)
+go
+[2014/02/01 22:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:28:47][stdin]select * from tt
+go
+[2014/02/01 22:28:47][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:29:46][stdin]drop table tt
+go
+[2014/02/01 22:29:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:29:46][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:29:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:29:46][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:29:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:29:46][stdin]select * from tt
+go
+[2014/02/01 22:29:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:34][stdin]drop table tt
+go
+[2014/02/01 22:30:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:34][stdin]create table tt (id int, timestamp)
+go
+[2014/02/01 22:30:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:34][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:30:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:34][stdin]select * from tt
+go
+[2014/02/01 22:30:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:51][stdin]drop table tt
+go
+[2014/02/01 22:30:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:51][stdin]create table tt (id int, dt bigtimestamp)
+go
+[2014/02/01 22:30:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:51][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:30:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:30:51][stdin]select * from tt
+go
+[2014/02/01 22:30:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:16][stdin]drop table tt
+go
+[2014/02/01 22:31:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:16][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:31:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:16][stdin]insert into tt (id) values (1)
+go
+[2014/02/01 22:31:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:16][stdin]select * from tt
+go
+[2014/02/01 22:31:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:51][stdin]drop table tt
+go
+[2014/02/01 22:31:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:51][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:31:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:51][stdin]insert into tt values (1, timestamp)
+go
+[2014/02/01 22:31:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:31:51][stdin]select * from tt
+go
+[2014/02/01 22:31:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:06][stdin]drop table tt
+go
+[2014/02/01 22:32:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:06][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:32:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:06][stdin]insert into tt values (1, current_date())
+go
+[2014/02/01 22:32:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:06][stdin]select * from tt
+go
+[2014/02/01 22:32:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:14][stdin]drop table tt
+go
+[2014/02/01 22:32:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:14][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:32:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:14][stdin]insert into tt values (1, current_date())
+go
+[2014/02/01 22:32:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:14][stdin]insert into tt values (1, current_time())
+go
+[2014/02/01 22:32:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:14][stdin]select * from tt
+go
+[2014/02/01 22:32:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]drop table tt
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]insert into tt values (1, current_date())
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]insert into tt values (2, current_date() + current_time())
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:32:31][stdin]select * from tt
+go
+[2014/02/01 22:32:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:39][stdin]drop table tt
+go
+[2014/02/01 22:34:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:39][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:34:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:40][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:34:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:40][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:34:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:40][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:34:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:34:40][stdin]select * from tt
+go
+[2014/02/01 22:34:40][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]drop table tt
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:08][stdin]select * from tt
+go
+[2014/02/01 22:35:08][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]drop table tt
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:18][stdin]select * from tt
+go
+[2014/02/01 22:35:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]drop table tt
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]insert into tt values (5, getdate())
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:35:44][stdin]select * from tt
+go
+[2014/02/01 22:35:44][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]drop table tt
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]insert into tt values (5, getdate())
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]select * from tt
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]select current_bigdatetime()
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]select current_date()
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]select current_time()
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:49][stdin]select current_bigtime()
+go
+[2014/02/01 22:38:49][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:38:50][stdin]select getdate()
+go
+[2014/02/01 22:38:50][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]drop table tt
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]insert into tt values (5, getdate())
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select * from tt
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select current_bigdatetime()
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select getdate()
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select current_date()
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select current_time()
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:02][stdin]select current_bigtime()
+go
+[2014/02/01 22:39:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]drop table tt
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]insert into tt values (5, getdate())
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select * from tt
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select current_bigdatetime()
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select getdate()
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select current_date()
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select current_time()
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:39:52][stdin]select current_bigtime()
+go
+[2014/02/01 22:39:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]drop table tt
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]create table tt (id int, dt bigdatetime)
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]insert into tt values (1, current_bigdatetime())
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]insert into tt values (2, current_date())
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]insert into tt values (3, current_time())
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]insert into tt values (4, current_bigtime())
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]insert into tt values (5, getdate())
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select * from tt
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select current_bigdatetime()
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select getdate()
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select current_date()
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select current_time()
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 22:40:52][stdin]select current_bigtime()
+go
+[2014/02/01 22:40:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:03:02][stdin]select * from te
+go
+[2014/02/01 23:03:02][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:03:05][stdin]select * from ti
+go
+[2014/02/01 23:03:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:03:07][stdin]select * from ti2
+go
+[2014/02/01 23:03:07][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:03:38][stdin]select * from ti, ti2 where (id, type) = (id, type)
+go
+[2014/02/01 23:03:38][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:04:11][stdin]select * from ti a, ti2 b where (a.id, a.type) = (b.id, b.type)
+go
+[2014/02/01 23:04:11][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:04:24][stdin]select * from ti a, ti2 b where (a.id, a.type) = (b.id, b.type)
+go
+[2014/02/01 23:04:24][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]drop table ts1
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]drop table ts2
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:05][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 23:13:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts2 values (1, 10, 'x')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts2 values (2, 20, 'y')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]insert into ts2 values (3, 30, 'z')
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]select * from ts1
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]select * from ts2
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]delete ts1 
+       from ts1 a, ts2 b 
+       where a.id = b.id and a.type = b.type
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:13:06][stdin]select * from ts1
+go
+[2014/02/01 23:13:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]drop table ts1
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]drop table ts2
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]create table ts1 (id int, type int, name varchar(10))
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]create table ts2 (id int, type int, name varchar(10))
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]alter table ts1 add PRIMARY KEY (id, type)
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]alter table ts2 add PRIMARY KEY (id, type)
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts1 values (1, 10, 'a')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts1 values (2, 20, 'b')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts1 values (2, 30, 'c')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts2 values (1, 10, 'x')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts2 values (2, 20, 'y')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]insert into ts2 values (3, 30, 'z')
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:33][stdin]select * from ts1
+go
+[2014/02/01 23:15:33][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:34][stdin]select * from ts2
+go
+[2014/02/01 23:15:34][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:45][stdin]delete ts1
+from ts1 a, ts2 b
+where a.id = b.id
+go
+[2014/02/01 23:15:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:15:51][stdin]select * from ts1
+go
+[2014/02/01 23:15:51][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:26:15][stdin]select CONVERT(TIME, timestamp)
+go
+[2014/02/01 23:26:15][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:26:24][stdin]select CONVERT(TIME, current_biddatetime())
+go
+[2014/02/01 23:26:24][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/01 23:26:30][stdin]select CONVERT(TIME, current_bigdatetime())
+go
+[2014/02/01 23:26:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror

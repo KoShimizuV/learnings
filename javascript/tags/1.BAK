@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+.ext {
+    background: url(./out.jpg) no-repeat right 5px;
+    padding: 0 50px 0 0;
+}
+</style>
+<script type="text/javascript" >
+window.onload = function(){
+  var lists = document.getElementsByTagName("a")
+  for (i=0; i<lists.length; i++){
+    if(lists[i].target == "blank") {
+      lists[i].className = "ext";
+    };
+  }
+}
+</script>
+</head>
+<body>
+
+<a href="http://google.co.jp">google</a><br/>
+<a href="http://google.co.jp" target="blank">google_blank</a><br/>
+
+
+<a href="http://google.co.jp" class="ext">sample</a>
+<br/>
+<br/>
+<br/>
+<br/>
+<img src="./out.jpg" />
+</body>
+</html>

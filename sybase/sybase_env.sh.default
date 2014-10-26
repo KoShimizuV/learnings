@@ -1,0 +1,8 @@
+#!/bin/sh
+
+export LANG=en_US.UTF-8
+export SB_USER=
+export SB_PASS=
+export SB_SERVER=
+export SB_DB=
+export SB_TMP=

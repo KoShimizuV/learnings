@@ -1,0 +1,143 @@
+[2014/02/02 00:08:28][stdin]select rownum()
+go
+[2014/02/02 00:08:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:08:30][stdin]select rownum
+go
+[2014/02/02 00:08:30][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:08:39][stdin]select rownum, id from t1
+go
+[2014/02/02 00:08:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:08:42][stdin]select rownum(), id from t1
+go
+[2014/02/02 00:08:42][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:08:46][stdin]select rownumber(), id from t1
+go
+[2014/02/02 00:08:46][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:09:06][stdin]select row_number(), id from t1
+go
+[2014/02/02 00:09:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:09:13][stdin]select row_number(), id from t2
+go
+[2014/02/02 00:09:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:09:18][stdin]select  id from t1
+go
+[2014/02/02 00:09:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:03][stdin]select row(id), id from t1
+go
+[2014/02/02 00:14:03][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:06][stdin]select row, id from t1
+go
+[2014/02/02 00:14:06][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:09][stdin]select row_id, id from t1
+go
+[2014/02/02 00:14:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:13][stdin]select row_id(), id from t1
+go
+[2014/02/02 00:14:13][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:45][stdin]select row_count(), id from t1
+go
+[2014/02/02 00:14:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:14:54][stdin]select row_count(id), id from t1
+go
+[2014/02/02 00:14:54][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:15:28][stdin]select * from t1
+go
+[2014/02/02 00:15:28][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:15:29][stdin]select * from t1
+go
+[2014/02/02 00:15:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:15:39][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:15:39][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:15:45][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:15:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:16:05][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:16:05][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:16:09][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:16:09][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:16:16][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:16:16][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:16:23][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:16:23][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:16:31][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:16:31][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:17:43][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:17:43][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:17:59][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:17:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:21:29][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:21:29][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:26:45][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:26:45][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:26:56][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:26:56][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:27:14][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:27:14][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:28:04][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:28:04][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:28:22][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:28:22][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:28:52][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:28:52][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:29:38][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:29:38][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:29:59][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:29:59][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror
+[2014/02/02 00:30:18][stdin]set nocount on 
+go
+ select * from t1
+go
+[2014/02/02 00:30:18][stdin]isql -Usa -Psbadmin -SWWW3036UO -Dase1 -w999999 --retserverror

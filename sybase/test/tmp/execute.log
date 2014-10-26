@@ -1,0 +1,11 @@
+0 : ./test_util_load.sh
+0 : ./test_util_gain_pk_cols.sh
+0 : ./test_query_insert.sh
+0 : ./test_bcp_import_non_specified_db.sh
+0 : ./test_bcp_import.sh
+0 : ./test_util_create_work_table_cols.sh
+0 : ./test_util_merge.sh
+0 : ./test_util_create_work_table.sh
+0 : ./test_util_import_merge_cols.sh
+0 : ./test_isql_sphelp.sh
+0 : ./test_util_import_merge.sh

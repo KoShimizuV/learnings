@@ -1,0 +1,28 @@
+<html>
+<script type="text/javascript"><!--
+function word_break(){
+    alert("ini");
+    var els = document.getElementsByClassName("title");
+    for(i=0; i<els.length; i++){
+        els[i].innerHTML = els[i].innerHTML.replace(/([ -~].*)/, "a");
+    }
+    alert("finish");
+}
+--></script>
+<body>
+
+<table style="width:100px">
+<tr><td class="title">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td><td>abca abca</td></tr>
+<tr><td class="title"><a href="#">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a></td><td>abca abca</td></tr>
+<tr><td>abca abca</td><td>abca abca</td></tr>
+</table>
+
+<table style="width:100px">
+<tr><td class="title">abca abca</td><td>abca abca</td></tr>
+<tr><td>abca abca</td><td>abca abca</td></tr>
+</table>
+
+<input type="button" onclick="word_break()" value="break" />
+
+</body>
+</html>

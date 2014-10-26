@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<project name="Rename" default="dist" basedir=".">
+    <description>
+        簡単なビルドファイルの例
+        http://www.jajakarta.org/ant/ant-1.6.1/docs/ja/manual/index.html
+        http://www.jajakarta.org/ant/ant-1.6.1/docs/ja/manual/using.html#buildfile
+    </description>
+  <!-- このビルド用のグローバルプロパティを設定する -->
+  <property name="src" location="${basedir}/src"/>
+  <property name="build" location="${basedir}/classes"/>
+  <property name="dist"  location="${basedir}/dist"/>
+
+  <target name="init">
+    <!-- タイムスタンプを作成する -->
+    <tstamp/>
+    <!-- コンパイルで使用するビルドディレクトリ構造を作成する -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="ソースをコンパイルする" >
+    <!-- ${src}から${build}に、Javaコードをコンパイルする -->
+    <javac srcdir="${src}" destdir="${build}"/>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="配布物を生成する" >
+    <!-- distributionディレクトリを作成する -->
+    <mkdir dir="${dist}/lib/${DSTAMP}"/>
+
+    <!-- ${build}の中のすべてのファイルをMyProject-${DSTAMP}.jarファイルに格納する -->
+    <jar jarfile="${dist}/lib/${DSTAMP}/Rename.jar" basedir="${build}" manifest="./conf/MANIFEST.MF"/>
+  </target>
+
+  <target name="clean"
+        description="クリーンアップ" >
+        <!-- ${build}と${dist}ディレクトリツリーを削除する -->
+
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>
