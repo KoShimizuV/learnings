@@ -1,0 +1,6 @@
+ko@ASUS_K /d/home/ko/learnings/php/file_devided (master)
+$ time ./execute.sh
+
+real    0m8.908s
+user    0m0.091s
+sys     0m0.262s
