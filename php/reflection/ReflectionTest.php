@@ -4,12 +4,20 @@ $obj = new TestClass();
 ReflectionTest::reflect_method_call("TestClass", "prv_exe", $obj);
 ReflectionTest::reflect_method_call("TestClass", "prv_exe_arg", $obj, "hello");
 ReflectionTest::reflect_method_call("TestClass", "prv_st_exe", null);
+
+echo "private property : prv_prop " . ReflectionTest::getProp("TestClass", "prv_prop", $obj) . "\n";
+echo "private static property : prv_stat_prop " . ReflectionTest::getProp("TestClass", "prv_stat_prop", null) . "\n";
+
 ReflectionTest::reflect_method_call("Abst", "prv_st_exe", null);
+
 
 $impl = new Impl();
 ReflectionTest::reflect_method_call("Impl", "concrete", $impl);
 
 class TestClass{
+    private $prv_prop = 5;
+    private static $prv_stat_prop = 99;
+
     private function prv_exe(){
         echo "prv_exe\n"; 
     }    
@@ -52,6 +60,12 @@ class ReflectionTest{
         } else {
             return $reflectionMethod->invoke($obj, $args);
         }
+    }
+
+    public static function getProp($className, $name, $obj){
+        $rp = new ReflectionProperty($className, $name);
+        $rp->setAccessible(true);
+        return $rp->getValue($obj); 
     }
 }
 
