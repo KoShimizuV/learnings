@@ -8,7 +8,8 @@ class BatchController{
     private static $logger;
     private static $jobPkg = "mybatch\\";
 
-    public static function main(){
+    public static function main($argv){
+       print_r($argv);
        date_default_timezone_set("Asia/Tokyo");
 
        self::$logger = new Logger();

@@ -2,4 +2,4 @@
 
 require("vendor\autoload.php");
 use mybatch\BatchController;
-BatchController::main();
+BatchController::main($argv);
