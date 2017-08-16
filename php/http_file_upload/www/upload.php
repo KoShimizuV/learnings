@@ -1,7 +1,7 @@
 <?php
 
-$uploaddir = 'D:\home\ko\learnings\php\http_file_upload\www\\';
-$uploadfile = $uploaddir . "up_" . basename($_FILES['file']['name']);
+$uploaddir = './upload_data/';
+$uploadfile = $uploaddir . basename($_FILES['file']['name']);
 
 echo '<pre>';
 if (move_uploaded_file($_FILES['file']['tmp_name'], $uploadfile)) {

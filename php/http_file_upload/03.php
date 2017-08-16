@@ -1,6 +1,6 @@
 <?php
 
-unlink('www\test.txt');
+unlink('www/upload_data/test.txt');
 file_put_contents("test.txt", "日本語UTF-8");
 $temp_body = file_get_contents("test.txt");
 
