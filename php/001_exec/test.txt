@@ -1,0 +1,421 @@
+array(209) {
+  [0]=>
+  string(62) ""イメージ名","PID","セッション名","セッション#","メモリ使用量""
+  [1]=>
+  string(46) ""System Idle Process","0","Services","0","4 K""
+  [2]=>
+  string(37) ""System","4","Services","0","4,788 K""
+  [3]=>
+  string(39) ""smss.exe","396","Services","0","268 K""
+  [4]=>
+  string(42) ""csrss.exe","620","Services","0","2,100 K""
+  [5]=>
+  string(42) ""wininit.exe","704","Services","0","684 K""
+  [6]=>
+  string(45) ""services.exe","844","Services","0","4,904 K""
+  [7]=>
+  string(43) ""lsass.exe","852","Services","0","10,336 K""
+  [8]=>
+  string(45) ""svchost.exe","956","Services","0","16,364 K""
+  [9]=>
+  string(44) ""svchost.exe","80","Services","0","11,240 K""
+  [10]=>
+  string(45) ""svchost.exe","368","Services","0","54,960 K""
+  [11]=>
+  string(46) ""svchost.exe","1028","Services","0","13,472 K""
+  [12]=>
+  string(46) ""svchost.exe","1124","Services","0","16,404 K""
+  [13]=>
+  string(46) ""svchost.exe","1196","Services","0","14,568 K""
+  [14]=>
+  string(46) ""svchost.exe","1208","Services","0","93,260 K""
+  [15]=>
+  string(46) ""svchost.exe","1452","Services","0","23,292 K""
+  [16]=>
+  string(46) ""WUDFHost.exe","1596","Services","0","1,340 K""
+  [17]=>
+  string(52) ""igfxCUIService.exe","1704","Services","0","1,788 K""
+  [18]=>
+  string(45) ""svchost.exe","1928","Services","0","5,444 K""
+  [19]=>
+  string(45) ""svchost.exe","2000","Services","0","4,952 K""
+  [20]=>
+  string(45) ""svchost.exe","1684","Services","0","7,696 K""
+  [21]=>
+  string(46) ""AsLdrSrv.exe","1976","Services","0","1,128 K""
+  [22]=>
+  string(44) ""GFNEXSrv.exe","1772","Services","0","732 K""
+  [23]=>
+  string(45) ""spoolsv.exe","2128","Services","0","7,856 K""
+  [24]=>
+  string(44) ""armsvc.exe","2400","Services","0","1,268 K""
+  [25]=>
+  string(64) ""DptfPolicyConfigTDPService.exe","2408","Services","0","1,092 K""
+  [26]=>
+  string(69) ""DptfParticipantProcessorService.exe","2416","Services","0","1,024 K""
+  [27]=>
+  string(50) ""AdminService.exe","2424","Services","0","1,876 K""
+  [28]=>
+  string(51) ""mDNSResponder.exe","2432","Services","0","2,744 K""
+  [29]=>
+  string(58) ""DptfPolicyLpmService.exe","2440","Services","0","1,088 K""
+  [30]=>
+  string(48) ""HeciServer.exe","2448","Services","0","1,052 K""
+  [31]=>
+  string(62) ""AppleMobileDeviceService.exe","2460","Services","0","3,848 K""
+  [32]=>
+  string(46) ""InsOnSrv.exe","2476","Services","0","2,040 K""
+  [33]=>
+  string(49) ""Jhi_service.exe","2492","Services","0","1,160 K""
+  [34]=>
+  string(53) ""NFCProxyService.exe","2656","Services","0","1,000 K""
+  [35]=>
+  string(47) ""sqlwriter.exe","2664","Services","0","1,092 K""
+  [36]=>
+  string(46) ""svchost.exe","2676","Services","0","13,908 K""
+  [37]=>
+  string(55) ""ASUSWakeupService.exe","2684","Services","0","2,924 K""
+  [38]=>
+  string(51) ""Ath_CoexAgent.exe","2692","Services","0","2,984 K""
+  [39]=>
+  string(51) ""TiMiniService.exe","2700","Services","0","1,000 K""
+  [40]=>
+  string(45) ""svchost.exe","2708","Services","0","3,268 K""
+  [41]=>
+  string(47) ""MsMpEng.exe","2720","Services","0","144,296 K""
+  [42]=>
+  string(54) ""Memory Compression","3012","Services","0","402,652 K""
+  [43]=>
+  string(49) ""TiResumeSrv.exe","3148","Services","0","1,428 K""
+  [44]=>
+  string(43) ""conhost.exe","3348","Services","0","984 K""
+  [45]=>
+  string(45) ""dasHost.exe","4000","Services","0","8,504 K""
+  [46]=>
+  string(45) ""svchost.exe","4076","Services","0","2,800 K""
+  [47]=>
+  string(44) ""NisSrv.exe","4616","Services","0","5,492 K""
+  [48]=>
+  string(59) ""PresentationFontCache.exe","4668","Services","0","2,152 K""
+  [49]=>
+  string(49) ""iPodService.exe","7736","Services","0","2,416 K""
+  [50]=>
+  string(52) ""IntelMeFWService.exe","6712","Services","0","864 K""
+  [51]=>
+  string(41) ""LMS.exe","8000","Services","0","2,576 K""
+  [52]=>
+  string(41) ""UNS.exe","8984","Services","0","4,960 K""
+  [53]=>
+  string(44) ""csrss.exe","11428","Console","4","11,268 K""
+  [54]=>
+  string(45) ""winlogon.exe","4156","Console","4","2,552 K""
+  [55]=>
+  string(41) ""dwm.exe","9756","Console","4","31,548 K""
+  [56]=>
+  string(46) ""HControl.exe","13280","Console","4","3,340 K""
+  [57]=>
+  string(45) ""svchost.exe","6472","Console","4","23,080 K""
+  [58]=>
+  string(45) ""sihost.exe","10476","Console","4","18,584 K""
+  [59]=>
+  string(47) ""VivoBook.exe","11404","Console","4","20,108 K""
+  [60]=>
+  string(48) ""taskhostw.exe","11184","Console","4","12,428 K""
+  [61]=>
+  string(49) ""USBChargerPlus.exe","6800","Console","4","588 K""
+  [62]=>
+  string(45) ""BatteryLife.exe","800","Console","4","736 K""
+  [63]=>
+  string(54) ""AsPatchTouchPanel64.exe","2580","Console","4","324 K""
+  [64]=>
+  string(43) ""igfxEM.exe","4168","Console","4","4,340 K""
+  [65]=>
+  string(44) ""igfxHK.exe","12400","Console","4","1,468 K""
+  [66]=>
+  string(46) ""igfxTray.exe","11896","Console","4","3,708 K""
+  [67]=>
+  string(52) ""RuntimeBroker.exe","12704","Console","4","52,008 K""
+  [68]=>
+  string(45) ""KBFiltr.exe","11020","Console","4","1,436 K""
+  [69]=>
+  string(46) ""WmiPrvSE.exe","6092","Services","0","6,320 K""
+  [70]=>
+  string(44) ""ATKOSD2.exe","8532","Console","4","1,668 K""
+  [71]=>
+  string(43) ""DMedia.exe","9376","Console","4","1,480 K""
+  [72]=>
+  string(53) ""RemindersServer.exe","11324","Console","4","5,160 K""
+  [73]=>
+  string(44) ""TabTip.exe","11940","Console","4","5,116 K""
+  [74]=>
+  string(44) ""TabTip32.exe","12996","Console","4","792 K""
+  [75]=>
+  string(53) ""SettingSyncHost.exe","2928","Console","4","17,168 K""
+  [76]=>
+  string(61) ""DptfPolicyLpmServiceHelper.exe","8628","Console","4","456 K""
+  [77]=>
+  string(45) ""RAVCpl64.exe","4984","Console","4","4,556 K""
+  [78]=>
+  string(44) ""RAVBg64.exe","4724","Console","4","3,520 K""
+  [79]=>
+  string(44) ""BtTray.exe","8992","Console","4","12,600 K""
+  [80]=>
+  string(46) ""BtvStack.exe","13052","Console","4","8,156 K""
+  [81]=>
+  string(42) ""ACMON.exe","6744","Console","4","7,140 K""
+  [82]=>
+  string(45) ""MSASCuiL.exe","5360","Console","4","3,288 K""
+  [83]=>
+  string(49) ""iTunesHelper.exe","2588","Console","4","3,084 K""
+  [84]=>
+  string(55) ""ApplicationManager.exe","7512","Console","4","4,960 K""
+  [85]=>
+  string(47) ""LiveUpdate.exe","6480","Console","4","5,040 K""
+  [86]=>
+  string(50) ""DropboxUpdate.exe","9928","Console","4","3,480 K""
+  [87]=>
+  string(46) ""OneDrive.exe","8400","Console","4","21,156 K""
+  [88]=>
+  string(46) ""E_IATIFFJ.EXE","6644","Console","4","1,896 K""
+  [89]=>
+  string(45) ""ACEngSvr.exe","3336","Console","4","2,944 K""
+  [90]=>
+  string(52) ""FeliCaLauncher.exe","11756","Console","4","5,576 K""
+  [91]=>
+  string(45) ""jusched.exe","10540","Console","4","2,848 K""
+  [92]=>
+  string(55) ""SilentCleanServer.exe","10868","Console","4","7,248 K""
+  [93]=>
+  string(46) ""SkypeHost.exe","9568","Console","4","2,332 K""
+  [94]=>
+  string(47) ""AsusTPLoader.exe","5980","Console","4","928 K""
+  [95]=>
+  string(48) ""AsusTPHelper.exe","10132","Console","4","848 K""
+  [96]=>
+  string(45) ""jucheck.exe","12784","Console","4","3,532 K""
+  [97]=>
+  string(47) ""ImeBroker.exe","6180","Console","4","40,036 K""
+  [98]=>
+  string(59) ""ApplicationFrameHost.exe","11188","Console","4","19,456 K""
+  [99]=>
+  string(44) ""LINE_APP.exe","12848","Console","4","644 K""
+  [100]=>
+  string(43) ""Video.UI.exe","8408","Console","4","576 K""
+  [101]=>
+  string(53) ""freeFTPdService.exe","11740","Console","4","4,132 K""
+  [102]=>
+  string(45) ""Hidemaru.exe","5144","Console","4","4,788 K""
+  [103]=>
+  string(43) ""wimserv.exe","5628","Services","0","140 K""
+  [104]=>
+  string(47) ""svchost.exe","10148","Services","0","20,328 K""
+  [105]=>
+  string(45) ""imecfmui.exe","3996","Console","4","1,112 K""
+  [106]=>
+  string(44) ""dllhost.exe","3912","Console","4","5,648 K""
+  [107]=>
+  string(45) ""dllhost.exe","10236","Console","4","1,372 K""
+  [108]=>
+  string(44) ""dasHost.exe","13100","Services","0","552 K""
+  [109]=>
+  string(47) ""smtp4dev.exe","13868","Console","4","12,932 K""
+  [110]=>
+  string(47) ""explorer.exe","8700","Console","4","122,276 K""
+  [111]=>
+  string(46) ""fontdrvhost.exe","6612","Console","4","740 K""
+  [112]=>
+  string(46) ""smtp4dev.exe","15048","Console","4","7,460 K""
+  [113]=>
+  string(46) ""chrome.exe","13460","Console","4","121,148 K""
+  [114]=>
+  string(44) ""chrome.exe","10632","Console","4","1,696 K""
+  [115]=>
+  string(43) ""chrome.exe","2548","Console","4","1,348 K""
+  [116]=>
+  string(44) ""chrome.exe","9180","Console","4","64,836 K""
+  [117]=>
+  string(45) ""chrome.exe","12664","Console","4","12,492 K""
+  [118]=>
+  string(39) ""cmd.exe","14792","Console","4","688 K""
+  [119]=>
+  string(45) ""conhost.exe","13864","Console","4","2,576 K""
+  [120]=>
+  string(47) ""explorer.exe","10820","Console","4","28,092 K""
+  [121]=>
+  string(40) ""php.exe","2144","Console","4","1,240 K""
+  [122]=>
+  string(39) ""sway.exe","5596","Console","4","896 K""
+  [123]=>
+  string(40) ""sh.exe","13424","Console","4","3,240 K""
+  [124]=>
+  string(45) ""conhost.exe","7332","Console","4","11,192 K""
+  [125]=>
+  string(50) ""googledrivesync.exe","3872","Console","4","872 K""
+  [126]=>
+  string(53) ""googledrivesync.exe","6260","Console","4","16,236 K""
+  [127]=>
+  string(46) ""explorer.exe","9644","Console","4","22,180 K""
+  [128]=>
+  string(38) ""cmd.exe","1424","Console","4","776 K""
+  [129]=>
+  string(44) ""conhost.exe","1364","Console","4","2,400 K""
+  [130]=>
+  string(44) ""chrome.exe","8752","Console","4","31,700 K""
+  [131]=>
+  string(51) ""SoftwareUpdate.exe","4852","Console","4","1,780 K""
+  [132]=>
+  string(36) ""csrss.exe","13360","","3","1,348 K""
+  [133]=>
+  string(39) ""winlogon.exe","14600","","3","1,172 K""
+  [134]=>
+  string(33) ""dwm.exe","6884","","3","3,992 K""
+  [135]=>
+  string(38) ""HControl.exe","5620","","3","2,928 K""
+  [136]=>
+  string(36) ""KBFiltr.exe","14636","","3","980 K""
+  [137]=>
+  string(39) ""svchost.exe","15868","","3","10,860 K""
+  [138]=>
+  string(36) ""sihost.exe","6824","","3","9,532 K""
+  [139]=>
+  string(40) ""taskhostw.exe","10336","","3","5,740 K""
+  [140]=>
+  string(39) ""explorer.exe","9664","","3","39,504 K""
+  [141]=>
+  string(38) ""ATKOSD2.exe","13192","","3","1,392 K""
+  [142]=>
+  string(36) ""DMedia.exe","9980","","3","1,280 K""
+  [143]=>
+  string(36) ""igfxEM.exe","6384","","3","3,492 K""
+  [144]=>
+  string(36) ""igfxHK.exe","3728","","3","1,308 K""
+  [145]=>
+  string(39) ""igfxTray.exe","16212","","3","2,972 K""
+  [146]=>
+  string(37) ""TabTip.exe","12616","","3","1,964 K""
+  [147]=>
+  string(36) ""TabTip32.exe","8184","","3","884 K""
+  [148]=>
+  string(43) ""RuntimeBroker.exe","488","","3","20,376 K""
+  [149]=>
+  string(37) ""SearchUI.exe","11328","","3","760 K""
+  [150]=>
+  string(38) ""RAVCpl64.exe","5696","","3","4,268 K""
+  [151]=>
+  string(38) ""RAVBg64.exe","12656","","3","3,292 K""
+  [152]=>
+  string(38) ""BtvStack.exe","8940","","3","6,864 K""
+  [153]=>
+  string(36) ""ACMON.exe","14196","","3","1,684 K""
+  [154]=>
+  string(38) ""MSASCuiL.exe","2288","","3","3,204 K""
+  [155]=>
+  string(43) ""iTunesHelper.exe","13956","","3","2,432 K""
+  [156]=>
+  string(39) ""OneDrive.exe","9328","","3","10,732 K""
+  [157]=>
+  string(39) ""ACEngSvr.exe","18404","","3","1,316 K""
+  [158]=>
+  string(37) ""jusched.exe","2168","","3","1,752 K""
+  [159]=>
+  string(47) ""SilentCleanServer.exe","5092","","3","4,740 K""
+  [160]=>
+  string(41) ""AsusTPLoader.exe","16300","","3","324 K""
+  [161]=>
+  string(41) ""AsusTPHelper.exe","13684","","3","472 K""
+  [162]=>
+  string(37) ""jucheck.exe","6496","","3","3,160 K""
+  [163]=>
+  string(48) ""ShellExperienceHost.exe","13300","","3","664 K""
+  [164]=>
+  string(42) ""LockAppHost.exe","16840","","3","3,224 K""
+  [165]=>
+  string(39) ""LogonUI.exe","17744","","3","12,704 K""
+  [166]=>
+  string(39) ""LockApp.exe","13560","","3","15,912 K""
+  [167]=>
+  string(37) ""TabTip.exe","16692","","3","1,872 K""
+  [168]=>
+  string(46) ""InsOnWMI.exe","11608","Console","4","4,488 K""
+  [169]=>
+  string(53) ""SystemSettings.exe","15008","Console","4","22,972 K""
+  [170]=>
+  string(58) ""ShellExperienceHost.exe","15024","Console","4","40,640 K""
+  [171]=>
+  string(56) ""OfficeClickToRun.exe","17560","Services","0","27,252 K""
+  [172]=>
+  string(49) ""AppVShNotify.exe","3904","Console","4","2,292 K""
+  [173]=>
+  string(46) ""SearchUI.exe","4416","Console","4","62,432 K""
+  [174]=>
+  string(38) ""SkypeHost.exe","17992","","3","284 K""
+  [175]=>
+  string(55) ""Microsoft.Photos.exe","12192","Console","4","54,048 K""
+  [176]=>
+  string(44) ""chrome.exe","2292","Console","4","36,896 K""
+  [177]=>
+  string(45) ""svchost.exe","9300","Services","0","9,976 K""
+  [178]=>
+  string(45) ""notepad.exe","5600","Console","4","17,392 K""
+  [179]=>
+  string(46) ""chrome.exe","14284","Console","4","210,228 K""
+  [180]=>
+  string(53) ""SearchIndexer.exe","13800","Services","0","42,132 K""
+  [181]=>
+  string(55) ""HxCalendarAppImm.exe","13740","Console","4","41,644 K""
+  [182]=>
+  string(44) ""HxTsr.exe","13376","Console","4","28,552 K""
+  [183]=>
+  string(48) ""MpCmdRun.exe","17632","Services","0","10,096 K""
+  [184]=>
+  string(46) ""dllhost.exe","10348","Console","4","27,920 K""
+  [185]=>
+  string(45) ""chrome.exe","15384","Console","4","51,112 K""
+  [186]=>
+  string(59) ""FeliCaPort_ServiceMgr.exe","2180","Console","4","12,444 K""
+  [187]=>
+  string(50) ""AsusTPCenter.exe","14140","Console","4","1,336 K""
+  [188]=>
+  string(46) ""explorer.exe","6792","Console","4","50,200 K""
+  [189]=>
+  string(47) ""Hidemaru.exe","11004","Console","4","22,708 K""
+  [190]=>
+  string(44) ""chrome.exe","8644","Console","4","41,284 K""
+  [191]=>
+  string(46) ""chrome.exe","14312","Console","4","173,444 K""
+  [192]=>
+  string(49) ""taskhostw.exe","11156","Services","0","22,324 K""
+  [193]=>
+  string(54) ""CompatTelRunner.exe","10796","Services","0","3,744 K""
+  [194]=>
+  string(46) ""svchost.exe","17456","Services","0","7,548 K""
+  [195]=>
+  string(46) ""ngentask.exe","544","Services","0","11,756 K""
+  [196]=>
+  string(48) ""ngentask.exe","11836","Services","0","13,208 K""
+  [197]=>
+  string(46) ""conhost.exe","16580","Services","0","7,124 K""
+  [198]=>
+  string(46) ""conhost.exe","16844","Services","0","7,036 K""
+  [199]=>
+  string(43) ""ngen.exe","4800","Services","0","10,828 K""
+  [200]=>
+  string(43) ""ngen.exe","14172","Services","0","6,336 K""
+  [201]=>
+  string(58) ""SearchProtocolHost.exe","15368","Services","0","10,444 K""
+  [202]=>
+  string(48) ""mscorsvw.exe","15684","Services","0","11,304 K""
+  [203]=>
+  string(55) ""SearchFilterHost.exe","13644","Services","0","6,344 K""
+  [204]=>
+  string(40) ""sh.exe","14212","Console","4","5,316 K""
+  [205]=>
+  string(41) ""php.exe","5352","Console","4","11,208 K""
+  [206]=>
+  string(40) ""cmd.exe","8004","Console","4","2,820 K""
+  [207]=>
+  string(45) ""tasklist.exe","8020","Console","4","8,060 K""
+  [208]=>
+  string(47) ""WmiPrvSE.exe","18076","Services","0","8,816 K""
+}
+bool(true)
